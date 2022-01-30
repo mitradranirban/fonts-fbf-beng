@@ -1,10 +1,10 @@
-SplineFontDB: 3.0
-FontName: mitramono
+SplineFontDB: 3.2
+FontName: MitraMono
 FullName: Mitra Mono
-FamilyName: Mitra Mono
+FamilyName: Mitra 
 Weight: Book
-Copyright: 
-Version: 0.80, November 11, 2015
+Copyright: GNU GPL2+ FE 2002-2002 Dr Anirban Mitra"As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version." 
+Version: 1.0.0
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -15,15 +15,15 @@ sfntRevision: 0x00000000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 162 -509335450 3889442]
-StyleMap: 0x0000
+XUID: [1021 162 -509335450 1826450]
+StyleMap: 0x0040
 FSType: 0
-OS2Version: 1
+OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1031905939
-ModificationTime: 1596440349
-PfmFamily: 81
+ModificationTime: 1643560183
+PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
@@ -53,15 +53,31 @@ OS2SupYOff: 644
 OS2StrikeYSize: 0
 OS2StrikeYPos: 0
 OS2Vendor: '    '
-OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00010001.00000000.00000000.00000000
+Lookup: 4 0 0 "'akhn' Akhand in Bengali lookup 0" { "'akhn' Akhand in Bengali lookup 0 subtable"  } ['akhn' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Bengali lookup 1" { "'rphf' Reph Form in Bengali lookup 1 subtable"  } ['rphf' ('beng' <'dflt' > ) 'zz02' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Bengali lookup 2" { "'blwf' Below Base Forms in Bengali lookup 2 subtable"  } ['blwf' ('beng' <'dflt' > ) 'zz03' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Bengali lookup 3" { "'half' Half Forms in Bengali lookup 3 subtable"  } ['half' ('beng' <'dflt' > ) 'zz04' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Bengali lookup 4" { "'pres' Pre Base Substitutions in Bengali lookup 4 subtable"  } ['pres' ('beng' <'dflt' > ) 'zz05' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Bengali lookup 5" { "'psts' Post Base Substitutions in Bengali lookup 5 subtable"  } ['psts' ('beng' <'dflt' > ) 'zz06' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Bengali lookup 6" { "'vatu' Vattu Variants in Bengali lookup 6 subtable"  } ['vatu' ('beng' <'dflt' > ) 'zz07' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms in Bengali lookup 7" { "'haln' Halant Forms in Bengali lookup 7 subtable"  } ['haln' ('beng' <'dflt' > ) 'zz08' ('beng' <'zz01' > ) ]
+Lookup: 6 0 0 "Contextual Chaining Substitution in Bengali lookup 8" { "Contextual Chaining Substitution in Bengali lookup 8 subtable"  } ['altr' ('beng' <'dflt' > ) 'zz09' ('beng' <'zz01' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } ['cv02' ('beng' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "Contextual Chaining Substitution in Bengali lookup 8 subtable" 0 0 0 1
+ 1 1 0
+  Coverage: 36 bnka bnta bntha bndha bnna bnma bnla
+  BCoverage: 572 halfka bnkha_u09CD.zz04 bnga_u09CD.zz04 bngha_u09CD.zz04 bnnga_u09CD.zz04 bnca_u09CD.zz04 bncha_u09CD.zz04 bnja_u09CD.zz04 bnjha_u09CD.zz04 bnnya_u09CD.zz04 bntta_u09CD.zz04 bnttha_u09CD.zz04 bndda_u09CD.zz04 bnddha_u09CD.zz04 bnnna_u09CD.zz04 bnta_u09CD.zz04 bntha_u09CD.zz04 bnda_u09CD.zz04 bndha_u09CD.zz04 bnna_u09CD.zz04 bnpa_u09CD.zz04 bnpha_u09CD.zz04 bnba_u09CD.zz04 bnbha_u09CD.zz04 bnma_u09CD.zz04 bnya_u09CD.zz04 bnra_u09CD.zz04 bnla_u09CD.zz04 bnsha_u09CD.zz04 bnssa_u09CD.zz04 bnsa_u09CD.zz04 bnha_u09CD.zz04 bnrra_u09CD.zz04 bnrha_u09CD.zz04 bnyya_u09CD.zz04
+ 1
+  SeqLookup: 0 "Single Substitution lookup 9"
+EndFPST
 ShortTable: maxp 16
   1
   0
-  325
+  324
   121
   15
   0
@@ -76,23 +92,25 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Monospace" "FontForge 2.0 : Mitra Mono : 11-11-2015" "" "Version 0.80, November 11, 2015" "" "" "mitra_anirban" "Dr Anirban Mitra" "This is an experimental Bengali monospace font." "mailto:mitra_anirban@yahoo.co.in" "http://sites.google.com/site/mitradrani" "GNU GPL2+-+AKkA Dr Anirban Mitra. You are allowed to distribute or use this software in as many computer systems as you wish, with or without modifications provided you transfer these  rights with the software. You are lso allowed to use this software in your GNU and/or commercial programs.+AA0ACgAA-This software is distributed in good faith that it will be useful to you but WITHOUT any warranty. For details see www.gnu.org."
-LangName: 1093 "" "+Ca4JvwmkCc0JsAAA +Ca4JqAnL"
+LangName: 1093 "" "" "" "" "+Ca4JvwmkCc0JsAAA +Ca4JywmoCcsA" "1.0.0"
+LangName: 1033 "" "" "Regular" "" "" "1.0.0 " "" "" "" "Dr Anirban Mitra" "This is an experimental Bengali monospace font." "https://fonts.atipra.in" "https://github.com/mitradranirban/fonts-fbf-beng " "GNU GPL2+- FE +AKkA 2002 - 2022 Dr Anirban Mitra. You are allowed to distribute or use this software in as many computer systems as you wish, with or without modifications provided you transfer these  rights with the software.  "
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 9
+WinInfo: 270 18 6
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65681 325
+BeginChars: 65680 297
 
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -110,38 +128,27 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: .null
-Encoding: 65537 -1 1
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph2
-Encoding: 65538 -1 2
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: uni000A
-Encoding: 10 10 3
+Encoding: 10 10 1
 AltUni2: 00000d.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: space
-Encoding: 32 32 4
+Encoding: 32 32 2
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 5
+Encoding: 33 33 3
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -171,8 +178,9 @@ EndSplineSet
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 6
+Encoding: 34 34 4
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -195,8 +203,9 @@ EndSplineSet
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 7
+Encoding: 35 35 5
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -239,8 +248,9 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 8
+Encoding: 36 36 6
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -292,8 +302,9 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 37 37 9
+Encoding: 37 37 7
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -343,8 +354,9 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 10
+Encoding: 38 38 8
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -392,8 +404,9 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 11
+Encoding: 39 39 9
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -409,8 +422,9 @@ EndSplineSet
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 12
+Encoding: 40 40 10
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -430,8 +444,9 @@ EndSplineSet
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 13
+Encoding: 41 41 11
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -451,8 +466,9 @@ EndSplineSet
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 14
+Encoding: 42 42 12
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -477,8 +493,9 @@ EndSplineSet
 EndChar
 
 StartChar: plus
-Encoding: 43 43 15
+Encoding: 43 43 13
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -500,8 +517,9 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 44 44 16
+Encoding: 44 44 14
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -520,8 +538,9 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 17
+Encoding: 45 45 15
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -535,8 +554,9 @@ EndSplineSet
 EndChar
 
 StartChar: period
-Encoding: 46 46 18
+Encoding: 46 46 16
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -550,8 +570,9 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 47 47 19
+Encoding: 47 47 17
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -565,8 +586,9 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 20
+Encoding: 48 48 18
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -597,8 +619,9 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 49 49 21
+Encoding: 49 49 19
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -617,8 +640,9 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 22
+Encoding: 50 50 20
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -650,8 +674,9 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 23
+Encoding: 51 51 21
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -691,8 +716,9 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 24
+Encoding: 52 52 22
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -717,8 +743,9 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 25
+Encoding: 53 53 23
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -750,8 +777,9 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 26
+Encoding: 54 54 24
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -790,8 +818,9 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 27
+Encoding: 55 55 25
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -812,8 +841,9 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 28
+Encoding: 56 56 26
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -858,8 +888,9 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 29
+Encoding: 57 57 27
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -900,8 +931,9 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 30
+Encoding: 58 58 28
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -920,8 +952,9 @@ EndSplineSet
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 31
+Encoding: 59 59 29
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -945,8 +978,9 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 60 60 32
+Encoding: 60 60 30
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -963,8 +997,9 @@ EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 61 61 33
+Encoding: 61 61 31
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -983,8 +1018,9 @@ EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 62 62 34
+Encoding: 62 62 32
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1001,8 +1037,9 @@ EndSplineSet
 EndChar
 
 StartChar: question
-Encoding: 63 63 35
+Encoding: 63 63 33
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1038,8 +1075,9 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 64 64 36
+Encoding: 64 64 34
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1111,8 +1149,9 @@ EndSplineSet
 EndChar
 
 StartChar: A
-Encoding: 65 65 37
+Encoding: 65 65 35
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1133,12 +1172,13 @@ SplineSet
  485 989 485 989 447 872 c 2,14,-1
  322 509 l 1,8,-1
 EndSplineSet
-Kerns2: 58 -367 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+Kerns2: 56 -367 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: B
-Encoding: 66 66 38
+Encoding: 66 66 36
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1183,8 +1223,9 @@ EndSplineSet
 EndChar
 
 StartChar: C
-Encoding: 67 67 39
+Encoding: 67 67 37
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1216,8 +1257,9 @@ EndSplineSet
 EndChar
 
 StartChar: D
-Encoding: 68 68 40
+Encoding: 68 68 38
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1250,8 +1292,9 @@ EndSplineSet
 EndChar
 
 StartChar: E
-Encoding: 69 69 41
+Encoding: 69 69 39
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1273,8 +1316,9 @@ EndSplineSet
 EndChar
 
 StartChar: F
-Encoding: 70 70 42
+Encoding: 70 70 40
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1294,8 +1338,9 @@ EndSplineSet
 EndChar
 
 StartChar: G
-Encoding: 71 71 43
+Encoding: 71 71 41
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1334,8 +1379,9 @@ EndSplineSet
 EndChar
 
 StartChar: H
-Encoding: 72 72 44
+Encoding: 72 72 42
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1357,8 +1403,9 @@ EndSplineSet
 EndChar
 
 StartChar: I
-Encoding: 73 73 45
+Encoding: 73 73 43
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1372,8 +1419,9 @@ EndSplineSet
 EndChar
 
 StartChar: J
-Encoding: 74 74 46
+Encoding: 74 74 44
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1397,8 +1445,9 @@ EndSplineSet
 EndChar
 
 StartChar: K
-Encoding: 75 75 47
+Encoding: 75 75 45
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1420,8 +1469,9 @@ EndSplineSet
 EndChar
 
 StartChar: L
-Encoding: 76 76 48
+Encoding: 76 76 46
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1437,8 +1487,9 @@ EndSplineSet
 EndChar
 
 StartChar: M
-Encoding: 77 77 49
+Encoding: 77 77 47
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1463,8 +1514,9 @@ EndSplineSet
 EndChar
 
 StartChar: N
-Encoding: 78 78 50
+Encoding: 78 78 48
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1484,8 +1536,9 @@ EndSplineSet
 EndChar
 
 StartChar: O
-Encoding: 79 79 51
+Encoding: 79 79 49
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1516,8 +1569,9 @@ EndSplineSet
 EndChar
 
 StartChar: P
-Encoding: 80 80 52
+Encoding: 80 80 50
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1547,8 +1601,9 @@ EndSplineSet
 EndChar
 
 StartChar: Q
-Encoding: 81 81 53
+Encoding: 81 81 51
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1586,8 +1641,9 @@ EndSplineSet
 EndChar
 
 StartChar: R
-Encoding: 82 82 54
+Encoding: 82 82 52
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1625,8 +1681,9 @@ EndSplineSet
 EndChar
 
 StartChar: S
-Encoding: 83 83 55
+Encoding: 83 83 53
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1671,8 +1728,9 @@ EndSplineSet
 EndChar
 
 StartChar: T
-Encoding: 84 84 56
+Encoding: 84 84 54
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1690,8 +1748,9 @@ EndSplineSet
 EndChar
 
 StartChar: U
-Encoding: 85 85 57
+Encoding: 85 85 55
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1718,8 +1777,9 @@ EndSplineSet
 EndChar
 
 StartChar: V
-Encoding: 86 86 58
+Encoding: 86 86 56
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1738,8 +1798,9 @@ EndSplineSet
 EndChar
 
 StartChar: W
-Encoding: 87 87 59
+Encoding: 87 87 57
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1768,8 +1829,9 @@ EndSplineSet
 EndChar
 
 StartChar: X
-Encoding: 88 88 60
+Encoding: 88 88 58
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1795,8 +1857,9 @@ EndSplineSet
 EndChar
 
 StartChar: Y
-Encoding: 89 89 61
+Encoding: 89 89 59
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1817,8 +1880,9 @@ EndSplineSet
 EndChar
 
 StartChar: Z
-Encoding: 90 90 62
+Encoding: 90 90 60
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1840,8 +1904,9 @@ EndSplineSet
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 63
+Encoding: 91 91 61
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1859,8 +1924,9 @@ EndSplineSet
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 64
+Encoding: 92 92 62
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1874,8 +1940,9 @@ EndSplineSet
 EndChar
 
 StartChar: braceright
-Encoding: 93 93 65
+Encoding: 93 93 63
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1893,8 +1960,9 @@ EndSplineSet
 EndChar
 
 StartChar: caron
-Encoding: 94 94 66
+Encoding: 94 94 64
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1911,8 +1979,9 @@ EndSplineSet
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 67
+Encoding: 95 95 65
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1926,8 +1995,9 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 96 96 68
+Encoding: 96 96 66
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1941,8 +2011,9 @@ EndSplineSet
 EndChar
 
 StartChar: a
-Encoding: 97 97 69
+Encoding: 97 97 67
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -1990,8 +2061,9 @@ EndSplineSet
 EndChar
 
 StartChar: b
-Encoding: 98 98 70
+Encoding: 98 98 68
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2023,8 +2095,9 @@ EndSplineSet
 EndChar
 
 StartChar: c
-Encoding: 99 99 71
+Encoding: 99 99 69
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2053,8 +2126,9 @@ EndSplineSet
 EndChar
 
 StartChar: d
-Encoding: 100 100 72
+Encoding: 100 100 70
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2087,8 +2161,9 @@ EndSplineSet
 EndChar
 
 StartChar: e
-Encoding: 101 101 73
+Encoding: 101 101 71
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2119,8 +2194,9 @@ EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 102 102 74
+Encoding: 102 102 72
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2149,8 +2225,9 @@ EndSplineSet
 EndChar
 
 StartChar: g
-Encoding: 103 103 75
+Encoding: 103 103 73
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2190,8 +2267,9 @@ EndSplineSet
 EndChar
 
 StartChar: h
-Encoding: 104 104 76
+Encoding: 104 104 74
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2218,8 +2296,9 @@ EndSplineSet
 EndChar
 
 StartChar: i
-Encoding: 105 105 77
+Encoding: 105 105 75
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2238,8 +2317,9 @@ EndSplineSet
 EndChar
 
 StartChar: j
-Encoding: 106 106 78
+Encoding: 106 106 76
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2264,8 +2344,9 @@ EndSplineSet
 EndChar
 
 StartChar: k
-Encoding: 107 107 79
+Encoding: 107 107 77
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2287,8 +2368,9 @@ EndSplineSet
 EndChar
 
 StartChar: l
-Encoding: 108 108 80
+Encoding: 108 108 78
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2302,8 +2384,9 @@ EndSplineSet
 EndChar
 
 StartChar: m
-Encoding: 109 109 81
+Encoding: 109 109 79
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2341,8 +2424,9 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 110 110 82
+Encoding: 110 110 80
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2370,8 +2454,9 @@ EndSplineSet
 EndChar
 
 StartChar: o
-Encoding: 111 111 83
+Encoding: 111 111 81
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2399,8 +2484,9 @@ EndSplineSet
 EndChar
 
 StartChar: p
-Encoding: 112 112 84
+Encoding: 112 112 82
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2434,8 +2520,9 @@ EndSplineSet
 EndChar
 
 StartChar: q
-Encoding: 113 113 85
+Encoding: 113 113 83
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2467,8 +2554,9 @@ EndSplineSet
 EndChar
 
 StartChar: r
-Encoding: 114 114 86
+Encoding: 114 114 84
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2491,8 +2579,9 @@ EndSplineSet
 EndChar
 
 StartChar: s
-Encoding: 115 115 87
+Encoding: 115 115 85
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2535,8 +2624,9 @@ EndSplineSet
 EndChar
 
 StartChar: t
-Encoding: 116 116 88
+Encoding: 116 116 86
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2566,8 +2656,9 @@ EndSplineSet
 EndChar
 
 StartChar: u
-Encoding: 117 117 89
+Encoding: 117 117 87
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2596,8 +2687,9 @@ EndSplineSet
 EndChar
 
 StartChar: v
-Encoding: 118 118 90
+Encoding: 118 118 88
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2616,8 +2708,9 @@ EndSplineSet
 EndChar
 
 StartChar: w
-Encoding: 119 119 91
+Encoding: 119 119 89
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2645,8 +2738,9 @@ EndSplineSet
 EndChar
 
 StartChar: x
-Encoding: 120 120 92
+Encoding: 120 120 90
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2671,8 +2765,9 @@ EndSplineSet
 EndChar
 
 StartChar: y
-Encoding: 121 121 93
+Encoding: 121 121 91
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2700,8 +2795,9 @@ EndSplineSet
 EndChar
 
 StartChar: z
-Encoding: 122 122 94
+Encoding: 122 122 92
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2724,8 +2820,9 @@ EndSplineSet
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 95
+Encoding: 123 123 93
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2767,8 +2864,9 @@ EndSplineSet
 EndChar
 
 StartChar: bar
-Encoding: 124 124 96
+Encoding: 124 124 94
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2782,8 +2880,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph96
-Encoding: 125 125 97
+Encoding: 125 125 95
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2825,8 +2924,9 @@ EndSplineSet
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 98
+Encoding: 126 126 96
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2851,10 +2951,48 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: uni0964
+Encoding: 2404 2404 97
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 1010 m 1,0,-1
+ 200 1010 l 1,1,-1
+ 200 80 l 1,2,-1
+ 0 80 l 1,3,-1
+ 0 1010 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni0965
+Encoding: 2405 2405 98
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+450 990 m 1,0,-1
+ 650 990 l 1,1,-1
+ 650 60 l 1,2,-1
+ 450 60 l 1,3,-1
+ 450 990 l 1,0,-1
+0 1010 m 1,4,-1
+ 200 1010 l 1,5,-1
+ 200 80 l 1,6,-1
+ 0 80 l 1,7,-1
+ 0 1010 l 1,4,-1
+EndSplineSet
+EndChar
+
 StartChar: exclamdown
 Encoding: 161 161 99
 AltUni2: 000981.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2888,6 +3026,7 @@ StartChar: cent
 Encoding: 162 162 100
 AltUni2: 000982.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2909,6 +3048,7 @@ StartChar: sterling
 Encoding: 163 163 101
 AltUni2: 000983.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2930,6 +3070,7 @@ StartChar: bna
 Encoding: 164 164 102
 AltUni2: 000985.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -2972,6 +3113,7 @@ StartChar: bnaa
 Encoding: 165 165 103
 AltUni2: 000986.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3019,6 +3161,7 @@ StartChar: bni
 Encoding: 166 166 104
 AltUni2: 000987.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3065,6 +3208,7 @@ StartChar: bnii
 Encoding: 167 167 105
 AltUni2: 000988.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3118,6 +3262,7 @@ StartChar: bnu
 Encoding: 168 168 106
 AltUni2: 000989.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3159,6 +3304,7 @@ StartChar: bnuu
 Encoding: 169 169 107
 AltUni2: 00098a.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3205,6 +3351,7 @@ StartChar: bnri
 Encoding: 170 170 108
 AltUni2: 00098b.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3256,10 +3403,38 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: bnli
+Encoding: 2444 2444 109
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+410 1290 m 1,0,1
+ 900 970 900 970 1035 780 c 128,-1,2
+ 1170 590 1170 590 1095 425 c 128,-1,3
+ 1020 260 1020 260 795 160 c 128,-1,4
+ 570 60 570 60 560 80 c 1,5,-1
+ 480 180 l 1,6,7
+ 700 280 700 280 850 400 c 1,8,9
+ 660 600 660 600 515 600 c 128,-1,10
+ 370 600 370 600 210 430 c 1,11,-1
+ 100 490 l 1,12,13
+ 290 690 290 690 365 715 c 128,-1,14
+ 440 740 440 740 560 720 c 128,-1,15
+ 680 700 680 700 970 490 c 1,16,17
+ 780 860 780 860 685 940 c 128,-1,18
+ 590 1020 590 1020 340 1190 c 1,19,-1
+ 410 1290 l 1,0,1
+EndSplineSet
+EndChar
+
 StartChar: bne
-Encoding: 172 172 109
+Encoding: 172 172 110
 AltUni2: 00098f.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3286,9 +3461,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnai
-Encoding: 173 173 110
+Encoding: 173 173 111
 AltUni2: 000990.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3335,9 +3511,10 @@ EndSplineSet
 EndChar
 
 StartChar: bno
-Encoding: 176 176 111
+Encoding: 176 176 112
 AltUni2: 000993.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3384,9 +3561,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnau
-Encoding: 177 177 112
+Encoding: 177 177 113
 AltUni2: 000994.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3453,9 +3631,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnka
-Encoding: 179 179 113
+Encoding: 179 179 114
 AltUni2: 000995.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3491,12 +3670,14 @@ SplineSet
  514 870 l 1,32,-1
  449 865 l 1,27,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph311
 EndChar
 
 StartChar: bnkha
-Encoding: 180 180 114
+Encoding: 180 180 115
 AltUni2: 000996.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3526,9 +3707,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnga
-Encoding: 181 181 115
+Encoding: 181 181 116
 AltUni2: 000997.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3566,9 +3748,10 @@ EndSplineSet
 EndChar
 
 StartChar: bngha
-Encoding: 182 182 116
+Encoding: 182 182 117
 AltUni2: 000998.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3608,9 +3791,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnnga
-Encoding: 183 183 117
+Encoding: 183 183 118
 AltUni2: 000999.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3647,9 +3831,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnca
-Encoding: 184 184 118
+Encoding: 184 184 119
 AltUni2: 00099a.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3693,9 +3878,10 @@ EndSplineSet
 EndChar
 
 StartChar: bncha
-Encoding: 185 185 119
+Encoding: 185 185 120
 AltUni2: 00099b.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3751,9 +3937,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnja
-Encoding: 186 186 120
+Encoding: 186 186 121
 AltUni2: 00099c.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3791,9 +3978,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnjha
-Encoding: 187 187 121
+Encoding: 187 187 122
 AltUni2: 00099d.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3834,9 +4022,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnnya
-Encoding: 188 188 122
+Encoding: 188 188 123
 AltUni2: 00099e.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3884,9 +4073,10 @@ EndSplineSet
 EndChar
 
 StartChar: bntta
-Encoding: 189 189 123
+Encoding: 189 189 124
 AltUni2: 00099f.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3929,9 +4119,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnttha
-Encoding: 190 190 124
+Encoding: 190 190 125
 AltUni2: 0009a0.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -3987,9 +4178,10 @@ EndSplineSet
 EndChar
 
 StartChar: bndda
-Encoding: 191 191 125
+Encoding: 191 191 126
 AltUni2: 0009a1.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4018,9 +4210,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnddha
-Encoding: 192 192 126
+Encoding: 192 192 127
 AltUni2: 0009a2.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4053,9 +4246,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnnna
-Encoding: 193 193 127
+Encoding: 193 193 128
 AltUni2: 0009a3.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4083,9 +4277,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnta
-Encoding: 194 194 128
+Encoding: 194 194 129
 AltUni2: 0009a4.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4114,12 +4309,14 @@ SplineSet
  1040 1320 l 1,27,-1
  -20 1330 l 1,24,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph312
 EndChar
 
 StartChar: bntha
-Encoding: 195 195 129
+Encoding: 195 195 130
 AltUni2: 0009a5.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4148,12 +4345,14 @@ SplineSet
  139 893 139 893 175 770 c 1,28,-1
  185 754 l 1,0,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph313
 EndChar
 
 StartChar: bnda
-Encoding: 196 196 130
+Encoding: 196 196 131
 AltUni2: 0009a6.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4178,9 +4377,10 @@ EndSplineSet
 EndChar
 
 StartChar: bndha
-Encoding: 197 197 131
+Encoding: 197 197 132
 AltUni2: 0009a7.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4216,12 +4416,14 @@ SplineSet
  222 1359 222 1359 326 1245 c 0,31,32
  416 1147 416 1147 701 1325 c 1,16,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph314
 EndChar
 
 StartChar: bnna
-Encoding: 198 198 132
+Encoding: 198 198 133
 AltUni2: 0009a8.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4251,12 +4453,14 @@ SplineSet
  700 1320 l 1,27,-1
  -20 1330 l 1,24,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph315
 EndChar
 
 StartChar: bnpa
-Encoding: 200 200 133
+Encoding: 200 200 134
 AltUni2: 0009aa.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4287,9 +4491,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnpha
-Encoding: 201 201 134
+Encoding: 201 201 135
 AltUni2: 0009ab.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4328,9 +4533,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnba
-Encoding: 202 202 135
+Encoding: 202 202 136
 AltUni2: 0009ac.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4359,9 +4565,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnbha
-Encoding: 203 203 136
+Encoding: 203 203 137
 AltUni2: 0009ad.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4393,9 +4600,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnma
-Encoding: 204 204 137
+Encoding: 204 204 138
 AltUni2: 0009ae.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4445,12 +4653,14 @@ SplineSet
  562 905 562 905 463 560 c 1,50,-1
  457 580 l 1,24,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph316
 EndChar
 
 StartChar: bnya
-Encoding: 205 205 138
+Encoding: 205 205 139
 AltUni2: 0009af.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4480,48 +4690,11 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: bnyya
-Encoding: 206 206 139
-AltUni2: 0009df.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-708 1340 m 1,0,-1
- 1050 1345 l 1,1,-1
- 1050 1180 l 1,2,-1
- 922 1180 l 1,3,-1
- 797 1180 l 1,4,-1
- 752 1180 l 1,5,-1
- 10 1185 l 1,6,-1
- 10 1335 l 1,7,-1
- 708 1340 l 1,0,-1
-898 1180 m 1,8,-1
- 898 20 l 1,9,-1
- 96 356 l 1,10,-1
- 179 534 l 1,11,-1
- 431 737 l 1,12,-1
- 60 1180 l 1,13,-1
- 260 1175 l 1,14,-1
- 627 815 l 1,15,-1
- 562 652 l 1,16,-1
- 334 427 l 1,17,-1
- 751 286 l 1,18,-1
- 749 1180 l 1,19,-1
- 898 1180 l 1,8,-1
-492 120 m 1,20,-1
- 399 12 l 1,21,-1
- 477 -103 l 1,22,-1
- 583 12 l 1,23,-1
- 492 120 l 1,20,-1
-EndSplineSet
-EndChar
-
 StartChar: bnra
 Encoding: 207 207 140
 AltUni2: 0009b0.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4557,6 +4730,7 @@ StartChar: bnla
 Encoding: 209 209 141
 AltUni2: 0009b2.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4592,12 +4766,14 @@ SplineSet
  224 425 224 425 299 539 c 0,35,36
  364 637 364 637 563 369 c 1,11,-1
 EndSplineSet
+Substitution2: "Single Substitution lookup 9 subtable" glyph317
 EndChar
 
 StartChar: bnsha
 Encoding: 213 213 142
 AltUni2: 0009b6.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4639,6 +4815,7 @@ StartChar: bnssa
 Encoding: 214 214 143
 AltUni2: 0009b7.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4677,6 +4854,7 @@ StartChar: bnsa
 Encoding: 215 215 144
 AltUni2: 0009b8.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4720,6 +4898,7 @@ StartChar: bnha
 Encoding: 216 216 145
 AltUni2: 0009b9.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4752,10 +4931,28 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: eacute
+Encoding: 233 233 146
+AltUni2: 0009bc.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+156 -64 m 1,0,-1
+ -11 -228 l 1,1,-1
+ 130 -403 l 1,2,-1
+ 320 -228 l 1,3,-1
+ 156 -64 l 1,0,-1
+EndSplineSet
+EndChar
+
 StartChar: bnmatraa
-Encoding: 218 218 146
+Encoding: 218 218 147
 AltUni2: 0009be.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4773,9 +4970,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatrai
-Encoding: 219 219 147
+Encoding: 219 219 148
 AltUni2: 0009bf.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4805,9 +5003,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatraii
-Encoding: 220 220 148
+Encoding: 220 220 149
 AltUni2: 0009c0.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4837,9 +5036,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatrau
-Encoding: 221 221 149
+Encoding: 221 221 150
 AltUni2: 0009c1.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4879,9 +5079,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatrauu
-Encoding: 222 222 150
+Encoding: 222 222 151
 AltUni2: 0009c2.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4913,9 +5114,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnri
-Encoding: 223 223 151
+Encoding: 223 223 152
 AltUni2: 0009c3.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4936,10 +5138,43 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: uni09C4
+Encoding: 2500 2500 153
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+370 -489 m 1,0,-1
+ 359 -492 l 1,1,-1
+ 864 -708 l 1,2,-1
+ 890 -890 l 1,3,-1
+ -10 -538 l 1,4,-1
+ 497 -205 l 1,5,-1
+ 755 -210 l 1,6,-1
+ 370 -489 l 1,0,-1
+610 -309 m 1,7,-1
+ 599 -312 l 1,8,-1
+ 1104 -528 l 1,9,-1
+ 1130 -710 l 1,10,-1
+ 230 -358 l 1,11,-1
+ 737 -25 l 1,12,-1
+ 995 -30 l 1,13,-1
+ 610 -309 l 1,7,-1
+-20 1330 m 1,14,-1
+ 26 1160 l 1,15,-1
+ 1000 1180 l 1,16,-1
+ 991 1330 l 1,17,-1
+ -20 1330 l 1,14,-1
+EndSplineSet
+EndChar
+
 StartChar: bnmatrae
-Encoding: 225 225 152
+Encoding: 225 225 154
 AltUni2: 0009c7.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -4964,9 +5199,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatraai
-Encoding: 226 226 153
+Encoding: 226 226 155
 AltUni2: 0009c8.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5005,9 +5241,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatrao
-Encoding: 229 229 154
+Encoding: 229 229 156
 AltUni2: 0009cb.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5041,9 +5278,10 @@ EndSplineSet
 EndChar
 
 StartChar: bnmatraau
-Encoding: 230 230 155
+Encoding: 230 230 157
 AltUni2: 0009cc.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5093,9 +5331,10 @@ EndSplineSet
 EndChar
 
 StartChar: u09CD
-Encoding: 232 232 156
+Encoding: 232 232 158
 AltUni2: 0009cd.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5113,446 +5352,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: eacute
-Encoding: 233 233 157
-AltUni2: 0009bc.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-156 -64 m 1,0,-1
- -11 -228 l 1,1,-1
- 130 -403 l 1,2,-1
- 320 -228 l 1,3,-1
- 156 -64 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: ntilde
-Encoding: 241 241 158
-AltUni2: 0009e6.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-533 160 m 256,0,1
- 232 160 232 160 106.5 334.5 c 128,-1,2
- -19 509 -19 509 -1 719 c 128,-1,3
- 17 929 17 929 164.5 1104 c 128,-1,4
- 312 1279 312 1279 558 1279 c 0,5,6
- 802 1279 802 1279 941.5 1104 c 128,-1,7
- 1081 929 1081 929 1090.5 719 c 128,-1,8
- 1100 509 1100 509 967 334.5 c 128,-1,9
- 834 160 834 160 533 160 c 256,0,1
-590 1090 m 0,10,11
- 418 1113 418 1113 336 999.5 c 128,-1,12
- 254 886 254 886 251.5 739 c 128,-1,13
- 249 592 249 592 320 463.5 c 128,-1,14
- 391 335 391 335 525 329 c 0,15,16
- 658 322 658 322 749.5 431.5 c 128,-1,17
- 841 541 841 541 862 680 c 128,-1,18
- 883 819 883 819 822 942.5 c 128,-1,19
- 761 1066 761 1066 590 1090 c 0,10,11
-EndSplineSet
-EndChar
-
-StartChar: ograve
-Encoding: 242 242 159
-AltUni2: 0009e7.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-206 1320 m 1,0,1
- 621 655 621 655 670 496.5 c 128,-1,2
- 719 338 719 338 250 0 c 1,3,-1
- 86 87 l 1,4,5
- 413 338 413 338 418.5 474.5 c 128,-1,6
- 424 611 424 611 10 1233 c 1,7,-1
- 206 1320 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: oacute
-Encoding: 243 243 160
-AltUni2: 0009e8.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-896 -21 m 1,0,-1
- 659 22 l 1,1,-1
- 267 338 l 1,2,-1
- 30 473 l 1,3,-1
- 349 687 l 1,4,-1
- 551 860 l 2,5,6
- 574 880 574 880 525 924 c 128,-1,7
- 476 968 476 968 397 1022.5 c 128,-1,8
- 318 1077 318 1077 236 1137 c 128,-1,9
- 154 1197 154 1197 113 1248 c 0,10,11
- 57 1317 57 1317 96 1374 c 128,-1,12
- 135 1431 135 1431 166 1407 c 2,13,-1
- 823 922 l 1,14,-1
- 566 634 l 1,15,-1
- 371 500 l 1,16,-1
- 781 130 l 1,17,-1
- 896 -21 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: ocircumflex
-Encoding: 244 244 161
-AltUni2: 0009e9.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-423 857 m 1,0,-1
- 310 932 l 1,1,2
- 406 1073 406 1073 552 1159 c 1,3,-1
- 779 1170 l 1,4,5
- 973 976 973 976 1070 770 c 1,6,7
- 1070 468 1070 468 1013.5 354.5 c 128,-1,8
- 957 241 957 241 868 176 c 128,-1,9
- 779 111 779 111 714 73.5 c 128,-1,10
- 649 36 649 36 503.5 63 c 128,-1,11
- 358 90 358 90 10 371 c 1,12,-1
- 74 533 l 1,13,14
- 382 327 382 327 491.5 284 c 128,-1,15
- 601 241 601 241 710 306 c 128,-1,16
- 819 371 819 371 844 533 c 1,17,18
- 884 587 884 587 836 803 c 1,19,20
- 755 900 755 900 689 954 c 1,21,22
- 576 976 576 976 438 878 c 1,23,-1
- 423 857 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: otilde
-Encoding: 245 245 162
-AltUni2: 0009ea.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1020 425 m 0,0,1
- 1020 258 1020 258 897 168 c 0,2,3
- 773 75 773 75 503 75 c 0,4,5
- 350 75 350 75 187.5 154.5 c 128,-1,6
- 25 234 25 234 25 378 c 0,7,8
- 25 481 25 481 115 573 c 0,9,10
- 161 620 161 620 204 653.5 c 128,-1,11
- 247 687 247 687 321 715 c 1,12,13
- 261 725 261 725 226.5 750.5 c 128,-1,14
- 192 776 192 776 148 805 c 0,15,16
- 25 886 25 886 25 998 c 0,17,18
- 25 1179 25 1179 176 1264.5 c 128,-1,19
- 327 1350 327 1350 531 1350 c 0,20,21
- 650 1350 650 1350 798 1292 c 0,22,23
- 959 1225 959 1225 989 1091 c 128,-1,24
- 1019 957 1019 957 915 847 c 0,25,26
- 874 804 874 804 833.5 772 c 128,-1,27
- 793 740 793 740 709 722 c 1,28,-1
- 735 712 l 1,29,30
- 791 712 791 712 824.5 684.5 c 128,-1,31
- 858 657 858 657 915 620 c 0,32,33
- 979 576 979 576 999.5 531 c 128,-1,34
- 1020 486 1020 486 1020 425 c 0,0,1
-731 1200 m 0,35,36
- 613 1255 613 1255 478 1255 c 0,37,38
- 347 1255 347 1255 267 1180.5 c 128,-1,39
- 187 1106 187 1106 187 1010 c 0,40,41
- 187 957 187 957 220.5 890 c 128,-1,42
- 254 823 254 823 343 819 c 2,43,-1
- 571 810 l 2,44,45
- 627 805 627 805 650 816.5 c 128,-1,46
- 673 828 673 828 699 842 c 0,47,48
- 832 914 832 914 864.5 1017 c 128,-1,49
- 897 1120 897 1120 731 1200 c 0,35,36
-903 404 m 0,50,51
- 903 463 903 463 873 494.5 c 128,-1,52
- 843 526 843 526 788 558 c 0,53,54
- 663 632 663 632 538 632 c 0,55,56
- 463 632 463 632 391.5 620.5 c 128,-1,57
- 320 609 320 609 261 565 c 0,58,59
- 146 475 146 475 171 384.5 c 128,-1,60
- 196 294 196 294 296 236 c 128,-1,61
- 396 178 396 178 541.5 172 c 128,-1,62
- 687 166 687 166 812 250 c 0,63,64
- 903 311 903 311 903 404 c 0,50,51
-EndSplineSet
-EndChar
-
-StartChar: odieresis
-Encoding: 246 246 163
-AltUni2: 0009eb.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-951 933 m 1,0,1
- 733 654 733 654 646 524 c 1,2,3
- 698 289 698 289 934 201 c 1,4,-1
- 585 10 l 1,5,6
- 298 1 298 1 154 123 c 128,-1,7
- 10 245 10 245 14.5 484.5 c 128,-1,8
- 19 724 19 724 163 911 c 128,-1,9
- 307 1098 307 1098 568 1290 c 1,10,-1
- 951 933 l 1,0,1
-540 1090 m 1,11,12
- 317 884 317 884 227.5 768.5 c 128,-1,13
- 138 653 138 653 135.5 504.5 c 128,-1,14
- 133 356 133 356 222.5 299 c 128,-1,15
- 312 242 312 242 472 106 c 1,16,-1
- 699 244 l 1,17,18
- 559 383 559 383 527 528 c 1,19,20
- 581 609 581 609 794 877 c 1,21,-1
- 540 1090 l 1,11,12
-EndSplineSet
-EndChar
-
-StartChar: divide
-Encoding: 247 247 164
-AltUni2: 0009ec.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-452 1219 m 1,0,-1
- 452 553 l 1,1,2
- 727 638 727 638 838 548 c 128,-1,3
- 949 458 949 458 885.5 294 c 128,-1,4
- 822 130 822 130 690 125 c 128,-1,5
- 558 120 558 120 135 384 c 1,6,-1
- 40 278 l 1,7,8
- 495 -29 495 -29 674.5 3 c 128,-1,9
- 854 35 854 35 986 225.5 c 128,-1,10
- 1118 416 1118 416 1054.5 527 c 128,-1,11
- 991 638 991 638 848.5 675 c 128,-1,12
- 706 712 706 712 579 712 c 1,13,-1
- 579 1230 l 1,14,-1
- 463 1230 l 1,15,-1
- 452 1219 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: oslash
-Encoding: 248 248 165
-AltUni2: 0009ed.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-959 55 m 1,0,-1
- 947 770 l 1,1,2
- 882 730 882 730 767 706 c 0,3,4
- 648 679 648 679 520 679 c 0,5,6
- 347 679 347 679 220 742 c 0,7,8
- 118 793 118 793 70 882 c 0,9,10
- 34 945 34 945 31 995 c 0,11,12
- 26 1136 26 1136 189 1234 c 0,13,14
- 347 1330 347 1330 542 1330 c 0,15,16
- 789 1330 789 1330 913 1248 c 0,17,18
- 1071 1141 1071 1141 1075 880 c 2,19,-1
- 1080 39 l 1,20,-1
- 959 55 l 1,0,-1
-856 887 m 1,21,-1
- 862 906 l 1,22,-1
- 867 932 l 2,23,24
- 881 1004 881 1004 849.5 1061 c 128,-1,25
- 818 1118 818 1118 774 1155 c 0,26,27
- 697 1219 697 1219 547 1219 c 0,28,29
- 386 1219 386 1219 288 1151 c 0,30,31
- 189 1082 189 1082 189 993 c 0,32,33
- 189 960 189 960 210 923 c 0,34,35
- 249 851 249 851 303 822 c 0,36,37
- 376 783 376 783 508 783 c 2,38,-1
- 597 783 l 2,39,40
- 610 783 610 783 682 799 c 0,41,42
- 717 807 717 807 742.5 812 c 128,-1,43
- 768 817 768 817 781 821 c 0,44,45
- 797 824 797 824 813 850 c 128,-1,46
- 829 876 829 876 856 887 c 1,21,-1
-EndSplineSet
-EndChar
-
-StartChar: ugrave
-Encoding: 249 249 166
-AltUni2: 0009ee.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1130 1017 m 1024,0,-1
-193 469 m 1,1,-1
- 189 450 l 1,2,-1
- 185 424 l 2,3,4
- 175 350 175 350 198 292.5 c 128,-1,5
- 221 235 221 235 253 198 c 0,6,7
- 309 132 309 132 419 132 c 0,8,9
- 536 132 536 132 607 202 c 0,10,11
- 680 271 680 271 680 362 c 0,12,13
- 680 395 680 395 664 433 c 0,14,15
- 636 506 636 506 597 535 c 0,16,17
- 543 574 543 574 447 574 c 2,18,-1
- 382 574 l 2,19,20
- 373 574 373 574 320 559 c 0,21,22
- 294 550 294 550 276 545 c 128,-1,23
- 258 540 258 540 248 536 c 0,24,25
- 237 533 237 533 225 506.5 c 128,-1,26
- 213 480 213 480 193 469 c 1,1,-1
-188 1312 m 1,27,-1
- 187 598 l 1,28,29
- 174 628 174 628 259 653 c 0,30,31
- 345 680 345 680 439 680 c 1,32,-1
- 489 686 l 1,33,-1
- 1086 686 l 1,34,-1
- 1084 531 l 1,35,-1
- 731 531 l 1,36,37
- 712 536 712 536 718 535 c 0,38,39
- 745 523 745 523 767 475 c 0,40,41
- 793 410 793 410 795 359 c 0,42,43
- 799 216 799 216 680 118 c 0,44,45
- 565 20 565 20 422 20 c 0,46,47
- 242 20 242 20 152 103 c 0,48,49
- 36 212 36 212 34 477 c 2,50,-1
- 30 1329 l 1,51,-1
- 188 1312 l 1,27,-1
-EndSplineSet
-EndChar
-
-StartChar: uacute
-Encoding: 250 250 167
-AltUni2: 0009ef.ffffffff.0
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-331 1290 m 1,0,1
- 854 948 854 948 998 745.5 c 128,-1,2
- 1142 543 1142 543 1062 366.5 c 128,-1,3
- 982 190 982 190 742 83.5 c 128,-1,4
- 502 -23 502 -23 491 -2 c 1,5,-1
- 406 105 l 1,6,7
- 641 212 641 212 801 340 c 1,8,9
- 598 553 598 553 443 553 c 128,-1,10
- 288 553 288 553 117 372 c 1,11,-1
- 0 436 l 1,12,13
- 203 649 203 649 283 676 c 128,-1,14
- 363 703 363 703 491 681.5 c 128,-1,15
- 619 660 619 660 929 436 c 1,16,17
- 726 831 726 831 624.5 916.5 c 128,-1,18
- 523 1002 523 1002 256 1183 c 1,19,-1
- 331 1290 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: uni0964
-Encoding: 2404 2404 168
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-0 1010 m 1,0,-1
- 200 1010 l 1,1,-1
- 200 80 l 1,2,-1
- 0 80 l 1,3,-1
- 0 1010 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: uni0965
-Encoding: 2405 2405 169
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-450 990 m 1,0,-1
- 650 990 l 1,1,-1
- 650 60 l 1,2,-1
- 450 60 l 1,3,-1
- 450 990 l 1,0,-1
-0 1010 m 1,4,-1
- 200 1010 l 1,5,-1
- 200 80 l 1,6,-1
- 0 80 l 1,7,-1
- 0 1010 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: bnli
-Encoding: 2444 2444 170
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-410 1290 m 1,0,1
- 900 970 900 970 1035 780 c 128,-1,2
- 1170 590 1170 590 1095 425 c 128,-1,3
- 1020 260 1020 260 795 160 c 128,-1,4
- 570 60 570 60 560 80 c 1,5,-1
- 480 180 l 1,6,7
- 700 280 700 280 850 400 c 1,8,9
- 660 600 660 600 515 600 c 128,-1,10
- 370 600 370 600 210 430 c 1,11,-1
- 100 490 l 1,12,13
- 290 690 290 690 365 715 c 128,-1,14
- 440 740 440 740 560 720 c 128,-1,15
- 680 700 680 700 970 490 c 1,16,17
- 780 860 780 860 685 940 c 128,-1,18
- 590 1020 590 1020 340 1190 c 1,19,-1
- 410 1290 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: uni09C4
-Encoding: 2500 2500 171
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-370 -489 m 1,0,-1
- 359 -492 l 1,1,-1
- 864 -708 l 1,2,-1
- 890 -890 l 1,3,-1
- -10 -538 l 1,4,-1
- 497 -205 l 1,5,-1
- 755 -210 l 1,6,-1
- 370 -489 l 1,0,-1
-610 -309 m 1,7,-1
- 599 -312 l 1,8,-1
- 1104 -528 l 1,9,-1
- 1130 -710 l 1,10,-1
- 230 -358 l 1,11,-1
- 737 -25 l 1,12,-1
- 995 -30 l 1,13,-1
- 610 -309 l 1,7,-1
--20 1330 m 1,14,-1
- 26 1160 l 1,15,-1
- 1000 1180 l 1,16,-1
- 991 1330 l 1,17,-1
- -20 1330 l 1,14,-1
-EndSplineSet
-EndChar
-
 StartChar: bnaulength
-Encoding: 2519 2519 172
+Encoding: 2519 2519 159
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5586,8 +5389,9 @@ EndSplineSet
 EndChar
 
 StartChar: bnrra
-Encoding: 2524 2524 173
+Encoding: 2524 2524 160
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5621,8 +5425,9 @@ EndSplineSet
 EndChar
 
 StartChar: bnrha
-Encoding: 2525 2525 174
+Encoding: 2525 2525 161
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5659,9 +5464,49 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: bnrri
-Encoding: 2528 2528 175
+StartChar: bnyya
+Encoding: 206 206 162
+AltUni2: 0009df.ffffffff.0
 Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+708 1340 m 1,0,-1
+ 1050 1345 l 1,1,-1
+ 1050 1180 l 1,2,-1
+ 922 1180 l 1,3,-1
+ 797 1180 l 1,4,-1
+ 752 1180 l 1,5,-1
+ 10 1185 l 1,6,-1
+ 10 1335 l 1,7,-1
+ 708 1340 l 1,0,-1
+898 1180 m 1,8,-1
+ 898 20 l 1,9,-1
+ 96 356 l 1,10,-1
+ 179 534 l 1,11,-1
+ 431 737 l 1,12,-1
+ 60 1180 l 1,13,-1
+ 260 1175 l 1,14,-1
+ 627 815 l 1,15,-1
+ 562 652 l 1,16,-1
+ 334 427 l 1,17,-1
+ 751 286 l 1,18,-1
+ 749 1180 l 1,19,-1
+ 898 1180 l 1,8,-1
+492 120 m 1,20,-1
+ 399 12 l 1,21,-1
+ 477 -103 l 1,22,-1
+ 583 12 l 1,23,-1
+ 492 120 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: bnrri
+Encoding: 2528 2528 163
+Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5722,8 +5567,9 @@ EndSplineSet
 EndChar
 
 StartChar: uni09E1
-Encoding: 2529 2529 176
+Encoding: 2529 2529 164
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5764,8 +5610,9 @@ EndSplineSet
 EndChar
 
 StartChar: uni09E2
-Encoding: 2530 2530 177
+Encoding: 2530 2530 165
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5790,8 +5637,9 @@ EndSplineSet
 EndChar
 
 StartChar: uni09E3
-Encoding: 2531 2531 178
+Encoding: 2531 2531 166
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5831,43 +5679,349 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni09F0
-Encoding: 2544 2544 179
+StartChar: ntilde
+Encoding: 241 241 167
+AltUni2: 0009e6.ffffffff.0
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-846 1170 m 1,0,-1
- 846 60 l 1,1,-1
- 710 50 l 1,2,-1
- 77 555 l 1,3,-1
- 60 665 l 1,4,-1
- 685 1170 l 1,5,-1
- 846 1170 l 1,0,-1
-618 885 m 1,6,-1
- 287 607 l 1,7,-1
- 296 545 l 1,8,-1
- 626 262 l 1,9,-1
- 698 267 l 1,10,-1
- 698 890 l 1,11,-1
- 618 885 l 1,6,-1
-20 1330 m 1,12,-1
- 20 1180 l 1,13,-1
- 1078 1170 l 1,14,-1
- 1080 1330 l 1,15,-1
- 20 1330 l 1,12,-1
-22 137 m 1,16,-1
- 120 311 l 1,17,-1
- 634 -100 l 1,18,-1
- 536 -290 l 1,19,-1
- 22 137 l 1,16,-1
+533 160 m 256,0,1
+ 232 160 232 160 106.5 334.5 c 128,-1,2
+ -19 509 -19 509 -1 719 c 128,-1,3
+ 17 929 17 929 164.5 1104 c 128,-1,4
+ 312 1279 312 1279 558 1279 c 0,5,6
+ 802 1279 802 1279 941.5 1104 c 128,-1,7
+ 1081 929 1081 929 1090.5 719 c 128,-1,8
+ 1100 509 1100 509 967 334.5 c 128,-1,9
+ 834 160 834 160 533 160 c 256,0,1
+590 1090 m 0,10,11
+ 418 1113 418 1113 336 999.5 c 128,-1,12
+ 254 886 254 886 251.5 739 c 128,-1,13
+ 249 592 249 592 320 463.5 c 128,-1,14
+ 391 335 391 335 525 329 c 0,15,16
+ 658 322 658 322 749.5 431.5 c 128,-1,17
+ 841 541 841 541 862 680 c 128,-1,18
+ 883 819 883 819 822 942.5 c 128,-1,19
+ 761 1066 761 1066 590 1090 c 0,10,11
 EndSplineSet
 EndChar
 
-StartChar: uni09F1
-Encoding: 2545 2545 180
+StartChar: ograve
+Encoding: 242 242 168
+AltUni2: 0009e7.ffffffff.0
 Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+206 1320 m 1,0,1
+ 621 655 621 655 670 496.5 c 128,-1,2
+ 719 338 719 338 250 0 c 1,3,-1
+ 86 87 l 1,4,5
+ 413 338 413 338 418.5 474.5 c 128,-1,6
+ 424 611 424 611 10 1233 c 1,7,-1
+ 206 1320 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: oacute
+Encoding: 243 243 169
+AltUni2: 0009e8.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+896 -21 m 1,0,-1
+ 659 22 l 1,1,-1
+ 267 338 l 1,2,-1
+ 30 473 l 1,3,-1
+ 349 687 l 1,4,-1
+ 551 860 l 2,5,6
+ 574 880 574 880 525 924 c 128,-1,7
+ 476 968 476 968 397 1022.5 c 128,-1,8
+ 318 1077 318 1077 236 1137 c 128,-1,9
+ 154 1197 154 1197 113 1248 c 0,10,11
+ 57 1317 57 1317 96 1374 c 128,-1,12
+ 135 1431 135 1431 166 1407 c 2,13,-1
+ 823 922 l 1,14,-1
+ 566 634 l 1,15,-1
+ 371 500 l 1,16,-1
+ 781 130 l 1,17,-1
+ 896 -21 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: ocircumflex
+Encoding: 244 244 170
+AltUni2: 0009e9.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+423 857 m 1,0,-1
+ 310 932 l 1,1,2
+ 406 1073 406 1073 552 1159 c 1,3,-1
+ 779 1170 l 1,4,5
+ 973 976 973 976 1070 770 c 1,6,7
+ 1070 468 1070 468 1013.5 354.5 c 128,-1,8
+ 957 241 957 241 868 176 c 128,-1,9
+ 779 111 779 111 714 73.5 c 128,-1,10
+ 649 36 649 36 503.5 63 c 128,-1,11
+ 358 90 358 90 10 371 c 1,12,-1
+ 74 533 l 1,13,14
+ 382 327 382 327 491.5 284 c 128,-1,15
+ 601 241 601 241 710 306 c 128,-1,16
+ 819 371 819 371 844 533 c 1,17,18
+ 884 587 884 587 836 803 c 1,19,20
+ 755 900 755 900 689 954 c 1,21,22
+ 576 976 576 976 438 878 c 1,23,-1
+ 423 857 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: otilde
+Encoding: 245 245 171
+AltUni2: 0009ea.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1020 425 m 0,0,1
+ 1020 258 1020 258 897 168 c 0,2,3
+ 773 75 773 75 503 75 c 0,4,5
+ 350 75 350 75 187.5 154.5 c 128,-1,6
+ 25 234 25 234 25 378 c 0,7,8
+ 25 481 25 481 115 573 c 0,9,10
+ 161 620 161 620 204 653.5 c 128,-1,11
+ 247 687 247 687 321 715 c 1,12,13
+ 261 725 261 725 226.5 750.5 c 128,-1,14
+ 192 776 192 776 148 805 c 0,15,16
+ 25 886 25 886 25 998 c 0,17,18
+ 25 1179 25 1179 176 1264.5 c 128,-1,19
+ 327 1350 327 1350 531 1350 c 0,20,21
+ 650 1350 650 1350 798 1292 c 0,22,23
+ 959 1225 959 1225 989 1091 c 128,-1,24
+ 1019 957 1019 957 915 847 c 0,25,26
+ 874 804 874 804 833.5 772 c 128,-1,27
+ 793 740 793 740 709 722 c 1,28,-1
+ 735 712 l 1,29,30
+ 791 712 791 712 824.5 684.5 c 128,-1,31
+ 858 657 858 657 915 620 c 0,32,33
+ 979 576 979 576 999.5 531 c 128,-1,34
+ 1020 486 1020 486 1020 425 c 0,0,1
+731 1200 m 0,35,36
+ 613 1255 613 1255 478 1255 c 0,37,38
+ 347 1255 347 1255 267 1180.5 c 128,-1,39
+ 187 1106 187 1106 187 1010 c 0,40,41
+ 187 957 187 957 220.5 890 c 128,-1,42
+ 254 823 254 823 343 819 c 2,43,-1
+ 571 810 l 2,44,45
+ 627 805 627 805 650 816.5 c 128,-1,46
+ 673 828 673 828 699 842 c 0,47,48
+ 832 914 832 914 864.5 1017 c 128,-1,49
+ 897 1120 897 1120 731 1200 c 0,35,36
+903 404 m 0,50,51
+ 903 463 903 463 873 494.5 c 128,-1,52
+ 843 526 843 526 788 558 c 0,53,54
+ 663 632 663 632 538 632 c 0,55,56
+ 463 632 463 632 391.5 620.5 c 128,-1,57
+ 320 609 320 609 261 565 c 0,58,59
+ 146 475 146 475 171 384.5 c 128,-1,60
+ 196 294 196 294 296 236 c 128,-1,61
+ 396 178 396 178 541.5 172 c 128,-1,62
+ 687 166 687 166 812 250 c 0,63,64
+ 903 311 903 311 903 404 c 0,50,51
+EndSplineSet
+EndChar
+
+StartChar: odieresis
+Encoding: 246 246 172
+AltUni2: 0009eb.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+951 933 m 1,0,1
+ 733 654 733 654 646 524 c 1,2,3
+ 698 289 698 289 934 201 c 1,4,-1
+ 585 10 l 1,5,6
+ 298 1 298 1 154 123 c 128,-1,7
+ 10 245 10 245 14.5 484.5 c 128,-1,8
+ 19 724 19 724 163 911 c 128,-1,9
+ 307 1098 307 1098 568 1290 c 1,10,-1
+ 951 933 l 1,0,1
+540 1090 m 1,11,12
+ 317 884 317 884 227.5 768.5 c 128,-1,13
+ 138 653 138 653 135.5 504.5 c 128,-1,14
+ 133 356 133 356 222.5 299 c 128,-1,15
+ 312 242 312 242 472 106 c 1,16,-1
+ 699 244 l 1,17,18
+ 559 383 559 383 527 528 c 1,19,20
+ 581 609 581 609 794 877 c 1,21,-1
+ 540 1090 l 1,11,12
+EndSplineSet
+EndChar
+
+StartChar: divide
+Encoding: 247 247 173
+AltUni2: 0009ec.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+452 1219 m 1,0,-1
+ 452 553 l 1,1,2
+ 727 638 727 638 838 548 c 128,-1,3
+ 949 458 949 458 885.5 294 c 128,-1,4
+ 822 130 822 130 690 125 c 128,-1,5
+ 558 120 558 120 135 384 c 1,6,-1
+ 40 278 l 1,7,8
+ 495 -29 495 -29 674.5 3 c 128,-1,9
+ 854 35 854 35 986 225.5 c 128,-1,10
+ 1118 416 1118 416 1054.5 527 c 128,-1,11
+ 991 638 991 638 848.5 675 c 128,-1,12
+ 706 712 706 712 579 712 c 1,13,-1
+ 579 1230 l 1,14,-1
+ 463 1230 l 1,15,-1
+ 452 1219 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: oslash
+Encoding: 248 248 174
+AltUni2: 0009ed.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+959 55 m 1,0,-1
+ 947 770 l 1,1,2
+ 882 730 882 730 767 706 c 0,3,4
+ 648 679 648 679 520 679 c 0,5,6
+ 347 679 347 679 220 742 c 0,7,8
+ 118 793 118 793 70 882 c 0,9,10
+ 34 945 34 945 31 995 c 0,11,12
+ 26 1136 26 1136 189 1234 c 0,13,14
+ 347 1330 347 1330 542 1330 c 0,15,16
+ 789 1330 789 1330 913 1248 c 0,17,18
+ 1071 1141 1071 1141 1075 880 c 2,19,-1
+ 1080 39 l 1,20,-1
+ 959 55 l 1,0,-1
+856 887 m 1,21,-1
+ 862 906 l 1,22,-1
+ 867 932 l 2,23,24
+ 881 1004 881 1004 849.5 1061 c 128,-1,25
+ 818 1118 818 1118 774 1155 c 0,26,27
+ 697 1219 697 1219 547 1219 c 0,28,29
+ 386 1219 386 1219 288 1151 c 0,30,31
+ 189 1082 189 1082 189 993 c 0,32,33
+ 189 960 189 960 210 923 c 0,34,35
+ 249 851 249 851 303 822 c 0,36,37
+ 376 783 376 783 508 783 c 2,38,-1
+ 597 783 l 2,39,40
+ 610 783 610 783 682 799 c 0,41,42
+ 717 807 717 807 742.5 812 c 128,-1,43
+ 768 817 768 817 781 821 c 0,44,45
+ 797 824 797 824 813 850 c 128,-1,46
+ 829 876 829 876 856 887 c 1,21,-1
+EndSplineSet
+EndChar
+
+StartChar: ugrave
+Encoding: 249 249 175
+AltUni2: 0009ee.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1130 1017 m 1024,0,-1
+193 469 m 1,1,-1
+ 189 450 l 1,2,-1
+ 185 424 l 2,3,4
+ 175 350 175 350 198 292.5 c 128,-1,5
+ 221 235 221 235 253 198 c 0,6,7
+ 309 132 309 132 419 132 c 0,8,9
+ 536 132 536 132 607 202 c 0,10,11
+ 680 271 680 271 680 362 c 0,12,13
+ 680 395 680 395 664 433 c 0,14,15
+ 636 506 636 506 597 535 c 0,16,17
+ 543 574 543 574 447 574 c 2,18,-1
+ 382 574 l 2,19,20
+ 373 574 373 574 320 559 c 0,21,22
+ 294 550 294 550 276 545 c 128,-1,23
+ 258 540 258 540 248 536 c 0,24,25
+ 237 533 237 533 225 506.5 c 128,-1,26
+ 213 480 213 480 193 469 c 1,1,-1
+188 1312 m 1,27,-1
+ 187 598 l 1,28,29
+ 174 628 174 628 259 653 c 0,30,31
+ 345 680 345 680 439 680 c 1,32,-1
+ 489 686 l 1,33,-1
+ 1086 686 l 1,34,-1
+ 1084 531 l 1,35,-1
+ 731 531 l 1,36,37
+ 712 536 712 536 718 535 c 0,38,39
+ 745 523 745 523 767 475 c 0,40,41
+ 793 410 793 410 795 359 c 0,42,43
+ 799 216 799 216 680 118 c 0,44,45
+ 565 20 565 20 422 20 c 0,46,47
+ 242 20 242 20 152 103 c 0,48,49
+ 36 212 36 212 34 477 c 2,50,-1
+ 30 1329 l 1,51,-1
+ 188 1312 l 1,27,-1
+EndSplineSet
+EndChar
+
+StartChar: uacute
+Encoding: 250 250 176
+AltUni2: 0009ef.ffffffff.0
+Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+331 1290 m 1,0,1
+ 854 948 854 948 998 745.5 c 128,-1,2
+ 1142 543 1142 543 1062 366.5 c 128,-1,3
+ 982 190 982 190 742 83.5 c 128,-1,4
+ 502 -23 502 -23 491 -2 c 1,5,-1
+ 406 105 l 1,6,7
+ 641 212 641 212 801 340 c 1,8,9
+ 598 553 598 553 443 553 c 128,-1,10
+ 288 553 288 553 117 372 c 1,11,-1
+ 0 436 l 1,12,13
+ 203 649 203 649 283 676 c 128,-1,14
+ 363 703 363 703 491 681.5 c 128,-1,15
+ 619 660 619 660 929 436 c 1,16,17
+ 726 831 726 831 624.5 916.5 c 128,-1,18
+ 523 1002 523 1002 256 1183 c 1,19,-1
+ 331 1290 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: uni09F0
+Encoding: 2544 2544 177
+Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5899,9 +6053,45 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni09FA
-Encoding: 2554 2554 181
+StartChar: uni09F1
+Encoding: 2545 2545 178
 Width: 1050
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+846 1170 m 1,0,-1
+ 846 60 l 1,1,-1
+ 710 50 l 1,2,-1
+ 77 555 l 1,3,-1
+ 60 665 l 1,4,-1
+ 685 1170 l 1,5,-1
+ 846 1170 l 1,0,-1
+618 885 m 1,6,-1
+ 287 607 l 1,7,-1
+ 296 545 l 1,8,-1
+ 626 262 l 1,9,-1
+ 698 267 l 1,10,-1
+ 698 890 l 1,11,-1
+ 618 885 l 1,6,-1
+20 1330 m 1,12,-1
+ 20 1180 l 1,13,-1
+ 1078 1170 l 1,14,-1
+ 1080 1330 l 1,15,-1
+ 20 1330 l 1,12,-1
+22 137 m 1,16,-1
+ 120 311 l 1,17,-1
+ 634 -100 l 1,18,-1
+ 536 -290 l 1,19,-1
+ 22 137 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: uni09FA
+Encoding: 2554 2554 179
+Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -5926,67 +6116,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni25CC
-Encoding: 9676 9676 182
-Width: 1050
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1103 651 m 1,0,-1
- 971 637 l 1,1,2
- 970 737 970 737 923 824 c 1,3,-1
- 1042 880 l 1,4,5
- 1099 772 1099 772 1103 651 c 1,0,-1
-927 1037 m 1,6,-1
- 842 936 l 1,7,8
- 807 969 807 969 765 992 c 0,9,10
- 721 1017 721 1017 675 1030 c 1,11,-1
- 721 1153 l 1,12,13
- 781 1135 781 1135 831 1107 c 0,14,15
- 882 1079 882 1079 927 1037 c 1,6,-1
-1023 369 m 0,16,17
- 994 319 994 319 951 272 c 1,18,-1
- 851 354 l 1,19,20
- 885 389 885 389 910 432 c 0,21,22
- 936 476 936 476 950 523 c 1,23,-1
- 1072 480 l 1,24,25
- 1053 420 1053 420 1023 369 c 0,16,17
-816 159 m 1,26,27
- 706 101 706 101 583 94 c 1,28,-1
- 573 224 l 1,29,30
- 672 228 672 228 761 278 c 1,31,-1
- 816 159 l 1,26,27
-536 1041 m 1,32,33
- 436 1037 436 1037 347 987 c 1,34,-1
- 292 1105 l 1,35,36
- 400 1163 400 1163 525 1170 c 1,37,-1
- 536 1041 l 1,32,33
-158 742 m 1,38,-1
- 35 785 l 1,39,40
- 53 841 53 841 85 895 c 0,41,42
- 116 949 116 949 157 993 c 1,43,-1
- 257 911 l 1,44,45
- 223 875 223 875 197 831 c 0,46,47
- 172 788 172 788 158 742 c 1,38,-1
-386 113 m 1,48,49
- 327 129 327 129 276 158 c 0,50,51
- 226 186 226 186 181 228 c 1,52,-1
- 265 329 l 1,53,54
- 300 296 300 296 344 272 c 0,55,56
- 386 248 386 248 432 235 c 1,57,-1
- 386 113 l 1,48,49
-185 441 m 1,58,-1
- 65 384 l 1,59,60
- 9 492 9 492 5 613 c 1,61,-1
- 137 627 l 1,62,63
- 138 527 138 527 185 441 c 1,58,-1
-EndSplineSet
-EndChar
-
 StartChar: bnja_u09CD_bnnya.zz01
-Encoding: 65539 -1 183
+Encoding: 65538 -1 180
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6043,11 +6176,13 @@ SplineSet
  438 934 l 1,52,-1
  438 1056 l 1,44,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand in Bengali lookup 0 subtable" bnja u09CD bnnya
 EndChar
 
 StartChar: bnka_u09CD_bnssa.zz01
-Encoding: 65540 -1 184
+Encoding: 65539 -1 181
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6110,11 +6245,13 @@ SplineSet
  1023 755 1023 755 966 869 c 0,78,79
  917 967 917 967 761 789 c 1,63,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand in Bengali lookup 0 subtable" bnka u09CD bnssa
 EndChar
 
 StartChar: bnha_u09CD_bnma.zz01
-Encoding: 65541 -1 185
+Encoding: 65540 -1 182
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6178,11 +6315,13 @@ SplineSet
  756 744 l 1,72,-1
  756 908 l 1,67,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand in Bengali lookup 0 subtable" bnha u09CD bnma
 EndChar
 
 StartChar: bnta_u09CD_bnta.zz01
-Encoding: 65542 -1 186
+Encoding: 65541 -1 183
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6231,11 +6370,13 @@ SplineSet
  345 1110 345 1110 271 1097 c 128,-1,44
  197 1084 197 1084 72 995 c 1,4,-1
 EndSplineSet
+Ligature2: "'akhn' Akhand in Bengali lookup 0 subtable" bnta u09CD bnta
 EndChar
 
 StartChar: halfka
-Encoding: 65543 -1 187
+Encoding: 65542 -1 184
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6271,11 +6412,13 @@ SplineSet
  532 968 l 1,32,-1
  464 965 l 1,27,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnka u09CD
 EndChar
 
 StartChar: bnkha_u09CD.zz04
-Encoding: 65544 -1 188
+Encoding: 65543 -1 185
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6300,11 +6443,13 @@ SplineSet
  185 1146 185 1146 320 1091 c 1,22,23
  510 1102 510 1102 598 1182 c 1,0,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnkha u09CD
 EndChar
 
 StartChar: bnga_u09CD.zz04
-Encoding: 65545 -1 189
+Encoding: 65544 -1 186
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6339,11 +6484,13 @@ SplineSet
  998 1315 l 1,28,-1
  998 1216 l 1,21,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnga u09CD
 EndChar
 
 StartChar: bngha_u09CD.zz04
-Encoding: 65546 -1 190
+Encoding: 65545 -1 187
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6380,11 +6527,13 @@ SplineSet
  704 1154 l 1,39,-1
  697 201 l 1,0,1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bngha u09CD
 EndChar
 
 StartChar: bnnga_u09CD.zz04
-Encoding: 65547 -1 191
+Encoding: 65546 -1 188
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6418,53 +6567,52 @@ SplineSet
  445 935 445 935 347 912 c 1,32,-1
  424 1086 l 1,8,9
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnnga u09CD
 EndChar
 
 StartChar: bnca_u09CD.zz04
-Encoding: 65548 -1 192
+Encoding: 65547 -1 189
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 20 1320 m 1,0,-1
  20 1177 l 1,1,-1
- 1050 1172 l 1,2,-1
- 1050 1320 l 1,3,-1
+ 1088 1168 l 1,2,-1
+ 1090 1320 l 1,3,-1
  20 1320 l 1,0,-1
-421 1176 m 1,4,-1
+424 1177 m 1,4,-1
  433 813 l 1,5,-1
  498 742 l 1,6,7
- 494 730 494 730 494 720 c 0,8,9
- 494 697 494 697 512 677 c 0,10,11
- 537 648 537 648 573 629 c 1,12,13
- 637 613 637 613 689 613 c 0,14,15
- 743 613 743 613 784 631 c 0,16,17
- 864 666 864 666 864 711 c 0,18,19
- 864 728 864 728 847 747 c 0,20,21
- 815 784 815 784 772 798 c 1,22,23
- 656 800 656 800 605 800 c 0,24,25
- 572 800 572 800 568 799 c 0,26,27
- 554 798 554 798 541.5 784.5 c 128,-1,28
- 529 771 529 771 507 765 c 1,29,-1
- 502 756 l 1,30,-1
- 448 820 l 1,31,32
- 545 884 545 884 735 886 c 0,33,34
- 779 886 779 886 828 882 c 1,35,36
- 921 801 921 801 960 756 c 0,37,38
- 989 724 989 724 966 699 c 1,39,40
- 972 686 972 686 972 673 c 0,41,42
- 972 618 972 618 864 577 c 1,43,44
- 694 438 694 438 461 570 c 1,45,46
- 337 620 337 620 329 757 c 2,47,-1
- 305 1176 l 1,48,-1
- 421 1176 l 1,4,-1
+ 486 706 486 706 511.5 677 c 128,-1,8
+ 537 648 537 648 573 629 c 1,9,10
+ 705 596 705 596 784 631 c 0,11,12
+ 864 666 864 666 864 711 c 0,13,14
+ 864 728 864 728 847 747 c 0,15,16
+ 815 784 815 784 772 798 c 1,17,18
+ 578 801 578 801 568 799 c 0,19,20
+ 554 798 554 798 541.5 784.5 c 128,-1,21
+ 529 771 529 771 507 765 c 1,22,-1
+ 502 756 l 1,23,-1
+ 448 820 l 1,24,25
+ 571 901 571 901 828 882 c 1,26,27
+ 921 801 921 801 960 756 c 0,28,29
+ 989 724 989 724 966 699 c 1,30,31
+ 996 627 996 627 864 577 c 1,32,33
+ 694 438 694 438 461 570 c 1,34,35
+ 333 624 333 624 329 757 c 2,36,-1
+ 326 1185 l 1,37,-1
+ 424 1177 l 1,4,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnca u09CD
 EndChar
 
 StartChar: bncha_u09CD.zz04
-Encoding: 65549 -1 193
+Encoding: 65548 -1 190
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6523,11 +6671,13 @@ SplineSet
  885 -480 l 1,62,-1
  641 -94 l 1,59,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bncha u09CD
 EndChar
 
 StartChar: bnja_u09CD.zz04
-Encoding: 65550 -1 194
+Encoding: 65549 -1 191
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6562,11 +6712,13 @@ SplineSet
  859 973 859 973 534 972 c 1,31,-1
  527 1082 l 1,20,21
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnja u09CD
 EndChar
 
 StartChar: bnjha_u09CD.zz04
-Encoding: 65551 -1 195
+Encoding: 65550 -1 192
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6609,11 +6761,13 @@ SplineSet
  1020 160 l 1,31,-1
  799 454 l 1,28,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnjha u09CD
 EndChar
 
 StartChar: bnnya_u09CD.zz04
-Encoding: 65552 -1 196
+Encoding: 65551 -1 193
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6659,11 +6813,13 @@ SplineSet
  554 1325 554 1325 458.5 1312.5 c 128,-1,45
  363 1300 363 1300 261 1227 c 1,24,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnnya u09CD
 EndChar
 
 StartChar: bntta_u09CD.zz04
-Encoding: 65553 -1 197
+Encoding: 65552 -1 194
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6703,11 +6859,13 @@ SplineSet
  700 1390 700 1390 640 1330 c 1,44,-1
  530 1330 l 1,34,35
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bntta u09CD
 EndChar
 
 StartChar: bnttha_u09CD.zz04
-Encoding: 65554 -1 198
+Encoding: 65553 -1 195
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6765,11 +6923,13 @@ SplineSet
  905 -692 l 1,51,-1
  580 -130 l 1,48,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnttha u09CD
 EndChar
 
 StartChar: bndda_u09CD.zz04
-Encoding: 65555 -1 199
+Encoding: 65554 -1 196
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6795,11 +6955,13 @@ SplineSet
  1060 1330 l 1,19,-1
  23 1330 l 1,16,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bndda u09CD
 EndChar
 
 StartChar: bnddha_u09CD.zz04
-Encoding: 65556 -1 200
+Encoding: 65555 -1 197
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6829,11 +6991,13 @@ SplineSet
  390 1207 l 1,33,-1
  527 1198 l 1,4,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnddha u09CD
 EndChar
 
 StartChar: bnnna_u09CD.zz04
-Encoding: 65557 -1 201
+Encoding: 65556 -1 198
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6850,11 +7014,13 @@ SplineSet
  500 789 500 789 641 919 c 0,15,16
  763 1031 763 1031 1150 828 c 1,0,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnnna u09CD
 EndChar
 
 StartChar: bnta_u09CD.zz04
-Encoding: 65558 -1 202
+Encoding: 65557 -1 199
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6883,11 +7049,13 @@ SplineSet
  1030 1320 l 1,27,-1
  -20 1330 l 1,24,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnta u09CD
 EndChar
 
 StartChar: bntha_u09CD.zz04
-Encoding: 65559 -1 203
+Encoding: 65558 -1 200
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6916,11 +7084,13 @@ SplineSet
  303 984 303 984 330 889 c 1,28,-1
  338 876 l 1,0,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bntha u09CD
 EndChar
 
 StartChar: bnda_u09CD.zz04
-Encoding: 65560 -1 204
+Encoding: 65559 -1 201
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6942,11 +7112,13 @@ SplineSet
  1055 1295 l 1,13,-1
  -2 1298 l 1,10,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnda u09CD
 EndChar
 
 StartChar: bndha_u09CD.zz04
-Encoding: 65561 -1 205
+Encoding: 65560 -1 202
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6982,11 +7154,13 @@ SplineSet
  137 1409 137 1409 238 1329 c 0,31,32
  325 1260 325 1260 600 1385 c 1,16,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bndha u09CD
 EndChar
 
 StartChar: bnna_u09CD.zz04
-Encoding: 65562 -1 206
+Encoding: 65561 -1 203
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7014,11 +7188,13 @@ SplineSet
  1163 1390 l 1,25,-1
  10 1395 l 1,22,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnna u09CD
 EndChar
 
 StartChar: bnpa_u09CD.zz04
-Encoding: 65563 -1 207
+Encoding: 65562 -1 204
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7038,11 +7214,13 @@ SplineSet
  866 1054 l 1,11,-1
  815 1102 l 1,6,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnpa u09CD
 EndChar
 
 StartChar: bnpha_u09CD.zz04
-Encoding: 65564 -1 208
+Encoding: 65563 -1 205
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7083,11 +7261,13 @@ SplineSet
  931 10 l 1,37,-1
  679 346 l 1,34,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnpha u09CD
 EndChar
 
 StartChar: bnba_u09CD.zz04
-Encoding: 65565 -1 209
+Encoding: 65564 -1 206
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7107,16 +7287,18 @@ SplineSet
  948 993 l 1,11,-1
  885 990 l 1,6,-1
 20 1330 m 1,12,-1
- 1070 1330 l 1,13,-1
+ 20 1167 l 1,13,-1
  1068 1157 l 1,14,-1
- 20 1167 l 1,15,-1
+ 1070 1330 l 1,15,-1
  20 1330 l 1,12,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnba u09CD
 EndChar
 
 StartChar: bnbha_u09CD.zz04
-Encoding: 65566 -1 210
+Encoding: 65565 -1 207
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7145,11 +7327,13 @@ SplineSet
  788 952 l 1,28,-1
  588 998 l 1,4,5
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnbha u09CD
 EndChar
 
 StartChar: bnma_u09CD.zz04
-Encoding: 65567 -1 211
+Encoding: 65566 -1 208
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7188,11 +7372,13 @@ SplineSet
  682 1032 682 1032 608 819 c 1,39,-1
  603 832 l 1,13,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnma u09CD
 EndChar
 
 StartChar: bnya_u09CD.zz04
-Encoding: 65568 -1 212
+Encoding: 65567 -1 209
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7225,11 +7411,13 @@ SplineSet
  923 -692 l 1,23,-1
  594 -130 l 1,20,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnya u09CD
 EndChar
 
 StartChar: bnra_u09CD.zz04
-Encoding: 65569 -1 213
+Encoding: 65568 -1 210
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7264,11 +7452,13 @@ SplineSet
  941 -692 l 1,23,-1
  606 -130 l 1,20,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnra u09CD
 EndChar
 
 StartChar: bnla_u09CD.zz04
-Encoding: 65570 -1 214
+Encoding: 65569 -1 211
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7301,11 +7491,13 @@ SplineSet
  1083 1340 l 1,33,-1
  1259 1340 l 1,30,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnla u09CD
 EndChar
 
 StartChar: bnsha_u09CD.zz04
-Encoding: 65571 -1 215
+Encoding: 65570 -1 212
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7333,11 +7525,13 @@ SplineSet
  598 810 598 810 700 926 c 0,32,33
  789 1025 789 1025 1070 845 c 1,17,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnsha u09CD
 EndChar
 
 StartChar: bnssa_u09CD.zz04
-Encoding: 65572 -1 216
+Encoding: 65571 -1 213
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7370,11 +7564,13 @@ SplineSet
  610 865 l 1,23,-1
  748 980 l 1,20,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnssa u09CD
 EndChar
 
 StartChar: bnsa_u09CD.zz04
-Encoding: 65573 -1 217
+Encoding: 65572 -1 214
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7401,11 +7597,13 @@ SplineSet
  1078 1350 l 1,21,-1
  30 1350 l 1,18,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnsa u09CD
 EndChar
 
 StartChar: bnha_u09CD.zz04
-Encoding: 65574 -1 218
+Encoding: 65573 -1 215
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7436,11 +7634,13 @@ SplineSet
  1090 1330 l 1,24,-1
  -20 1330 l 1,21,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnha u09CD
 EndChar
 
 StartChar: bnrra_u09CD.zz04
-Encoding: 65575 -1 219
+Encoding: 65574 -1 216
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7471,11 +7671,13 @@ SplineSet
  659 408 l 1,23,-1
  553 515 l 1,20,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnrra u09CD
 EndChar
 
 StartChar: bnrha_u09CD.zz04
-Encoding: 65576 -1 220
+Encoding: 65575 -1 217
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7510,11 +7712,13 @@ SplineSet
  683 484 l 1,37,-1
  585 591 l 1,34,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnrha u09CD
 EndChar
 
 StartChar: bnyya_u09CD.zz04
-Encoding: 65577 -1 221
+Encoding: 65576 -1 218
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7547,11 +7751,13 @@ SplineSet
  659 145 l 1,23,-1
  531 281 l 1,20,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnyya u09CD
 EndChar
 
 StartChar: bnta_u09CD.zz08
-Encoding: 65578 -1 222
+Encoding: 65577 -1 219
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7576,11 +7782,13 @@ SplineSet
  1089 940 l 1,21,0
  859 1180 859 1180 544 1230 c 1,1,2
 EndSplineSet
+Ligature2: "'haln' Halant Forms in Bengali lookup 7 subtable" bnta u09CD
 EndChar
 
 StartChar: bnja_u09CD_bnnya.zz01_u09CD.zz04
-Encoding: 65579 -1 223
+Encoding: 65578 -1 220
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7637,11 +7845,13 @@ SplineSet
  355 1074 l 1,52,-1
  355 1165 l 1,44,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnja_u09CD_bnnya.zz01 u09CD
 EndChar
 
 StartChar: bnka_u09CD_bnssa.zz01_u09CD.zz04
-Encoding: 65580 -1 224
+Encoding: 65579 -1 221
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7709,11 +7919,13 @@ SplineSet
  1495 885 1495 885 1426 961 c 0,82,83
  1367 1026 1367 1026 1178 907 c 1,67,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnka_u09CD_bnssa.zz01 u09CD
 EndChar
 
 StartChar: bnha_u09CD_bnma.zz01_u09CD.zz04
-Encoding: 65581 -1 225
+Encoding: 65580 -1 222
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7777,11 +7989,13 @@ SplineSet
  30 1400 l 1,72,-1
  950 1400 l 1,69,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnha_u09CD_bnma.zz01 u09CD
 EndChar
 
 StartChar: bnta_u09CD_bnta.zz01_u09CD.zz04
-Encoding: 65582 -1 226
+Encoding: 65581 -1 223
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7830,11 +8044,13 @@ SplineSet
  345 1206 345 1206 271 1192 c 128,-1,44
  197 1178 197 1178 72 1081 c 1,4,-1
 EndSplineSet
+Ligature2: "'half' Half Forms in Bengali lookup 3 subtable" bnta_u09CD_bnta.zz01 u09CD
 EndChar
 
 StartChar: bnra_u09CD.zz02
-Encoding: 65583 -1 227
+Encoding: 65582 -1 224
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7850,11 +8066,13 @@ SplineSet
  1061 1395 l 1,7,-1
  10 1395 l 1,4,-1
 EndSplineSet
+Ligature2: "'rphf' Reph Form in Bengali lookup 1 subtable" bnra u09CD
 EndChar
 
 StartChar: bnya_u09CD.zz06
-Encoding: 65584 -1 228
+Encoding: 65583 -1 225
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7879,11 +8097,13 @@ SplineSet
  1050 1360 l 1,25,-1
  10 1360 l 1,22,-1
 EndSplineSet
+Ligature2: "'psts' Post Base Substitutions in Bengali lookup 5 subtable" bnya u09CD
 EndChar
 
 StartChar: bnra_u09CD.zz03
-Encoding: 65585 -1 229
+Encoding: 65584 -1 226
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7911,11 +8131,13 @@ SplineSet
  991 1330 l 1,27,-1
  -20 1330 l 1,24,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 2 subtable" bnra u09CD
 EndChar
 
 StartChar: bnba_u09CD.zz03
-Encoding: 65586 -1 230
+Encoding: 65585 -1 227
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7941,11 +8163,13 @@ SplineSet
  -144 70 l 1,17,-1
  0 69 l 1,4,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 2 subtable" bnba u09CD
 EndChar
 
 StartChar: bnka_bnra_u09CD.zz03.zz07
-Encoding: 65587 -1 231
+Encoding: 65586 -1 228
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -7985,11 +8209,13 @@ SplineSet
  603 1187 603 1187 502.5 1169.5 c 128,-1,42
  402 1152 402 1152 295 1045 c 1,21,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnka bnra_u09CD.zz03
 EndChar
 
 StartChar: bnkha_bnra_u09CD.zz03.zz07
-Encoding: 65588 -1 232
+Encoding: 65587 -1 229
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8033,11 +8259,13 @@ SplineSet
  895 183 l 1,49,-1
  1068 175 l 1,26,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnkha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnga_bnra_u09CD.zz03.zz07
-Encoding: 65589 -1 233
+Encoding: 65588 -1 230
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8089,11 +8317,13 @@ SplineSet
  772 448 l 1,51,-1
  921 440 l 1,29,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnga bnra_u09CD.zz03
 EndChar
 
 StartChar: bngha_bnra_u09CD.zz03.zz07
-Encoding: 65590 -1 234
+Encoding: 65589 -1 231
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8150,11 +8380,13 @@ SplineSet
  308 1114 l 1,64,-1
  817 1113 l 1,58,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bngha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnnga_bnra_u09CD.zz03.zz07
-Encoding: 65591 -1 235
+Encoding: 65590 -1 232
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8205,11 +8437,13 @@ SplineSet
  775 175 l 1,56,-1
  640 183 l 1,33,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnnga bnra_u09CD.zz03
 EndChar
 
 StartChar: bnca_bnra_u09CD.zz03.zz07
-Encoding: 65592 -1 236
+Encoding: 65591 -1 233
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8267,11 +8501,13 @@ SplineSet
  538 55 l 1,74,-1
  646 49 l 1,51,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnca bnra_u09CD.zz03
 EndChar
 
 StartChar: bncha_bnra_u09CD.zz03.zz07
-Encoding: 65593 -1 237
+Encoding: 65592 -1 234
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8342,11 +8578,13 @@ SplineSet
  948 175 l 1,82,-1
  795 183 l 1,59,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bncha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnja_bnra_u09CD.zz03.zz07
-Encoding: 65594 -1 238
+Encoding: 65593 -1 235
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8396,11 +8634,13 @@ SplineSet
  929 113 l 1,51,-1
  1050 112 l 1,28,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnja bnra_u09CD.zz03
 EndChar
 
 StartChar: bnjha_bnra_u09CD.zz03.zz07
-Encoding: 65595 -1 239
+Encoding: 65594 -1 236
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8455,11 +8695,13 @@ SplineSet
  828 93 l 1,51,-1
  947 85 l 1,28,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnjha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnnya_bnra_u09CD.zz03.zz07
-Encoding: 65596 -1 240
+Encoding: 65595 -1 237
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8521,11 +8763,13 @@ SplineSet
  592 70 l 1,69,-1
  693 64 l 1,46,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnnya bnra_u09CD.zz03
 EndChar
 
 StartChar: bntta_bnra_u09CD.zz03.zz07
-Encoding: 65597 -1 241
+Encoding: 65596 -1 238
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8582,11 +8826,13 @@ SplineSet
  510 173 l 1,68,-1
  610 165 l 1,45,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bntta bnra_u09CD.zz03
 EndChar
 
 StartChar: bnttha_bnra_u09CD.zz03.zz07
-Encoding: 65598 -1 242
+Encoding: 65597 -1 239
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8656,11 +8902,13 @@ SplineSet
  657 48 l 1,71,-1
  782 40 l 1,48,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnttha bnra_u09CD.zz03
 EndChar
 
 StartChar: bndda_bnra_u09CD.zz03.zz07
-Encoding: 65599 -1 243
+Encoding: 65598 -1 240
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8703,11 +8951,13 @@ SplineSet
  755 65 l 1,43,-1
  638 73 l 1,20,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bndda bnra_u09CD.zz03
 EndChar
 
 StartChar: bnddha_bnra_u09CD.zz03.zz07
-Encoding: 65600 -1 244
+Encoding: 65599 -1 241
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8754,11 +9004,13 @@ SplineSet
  577 203 l 1,57,-1
  689 195 l 1,34,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnddha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnnna_bnra_u09CD.zz03.zz07
-Encoding: 65601 -1 245
+Encoding: 65600 -1 242
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8800,11 +9052,13 @@ SplineSet
  783 348 l 1,47,-1
  929 340 l 1,24,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnnna bnra_u09CD.zz03
 EndChar
 
 StartChar: bnta_bnra_u09CD.zz03.zz07
-Encoding: 65602 -1 246
+Encoding: 65601 -1 243
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8833,11 +9087,13 @@ SplineSet
  729 1263 729 1263 608 1244 c 128,-1,25
  487 1225 487 1225 358 1112 c 1,4,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnta bnra_u09CD.zz03
 EndChar
 
 StartChar: bntha_bnra_u09CD.zz03.zz07
-Encoding: 65603 -1 247
+Encoding: 65602 -1 244
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8883,11 +9139,13 @@ SplineSet
  861 173 l 1,52,-1
  1026 165 l 1,29,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bntha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnda_bnra_u09CD.zz03.zz07
-Encoding: 65604 -1 248
+Encoding: 65603 -1 245
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8926,11 +9184,13 @@ SplineSet
  905 445 l 1,37,-1
  758 453 l 1,14,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnda bnra_u09CD.zz03
 EndChar
 
 StartChar: bndha_bnra_u09CD.zz03.zz07
-Encoding: 65605 -1 249
+Encoding: 65604 -1 246
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -8983,11 +9243,13 @@ SplineSet
  707 273 l 1,56,-1
  845 265 l 1,33,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bndha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnna_bnra_u09CD.zz03.zz07
-Encoding: 65606 -1 250
+Encoding: 65605 -1 247
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9034,11 +9296,13 @@ SplineSet
  721 268 l 1,51,-1
  864 260 l 1,28,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnna bnra_u09CD.zz03
 EndChar
 
 StartChar: bnpa_bnra_u09CD.zz03.zz07
-Encoding: 65607 -1 251
+Encoding: 65606 -1 248
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9083,11 +9347,13 @@ SplineSet
  748 428 l 1,42,-1
  880 420 l 1,19,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnpa bnra_u09CD.zz03
 EndChar
 
 StartChar: bnpha_bnra_u09CD.zz03.zz07
-Encoding: 65608 -1 252
+Encoding: 65607 -1 249
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9140,11 +9406,13 @@ SplineSet
  638 253 l 1,57,-1
  756 245 l 1,34,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnpha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnba_bnra_u09CD.zz03.zz07
-Encoding: 65609 -1 253
+Encoding: 65608 -1 250
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9186,11 +9454,13 @@ SplineSet
  723 243 l 1,39,-1
  856 235 l 1,16,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnba bnra_u09CD.zz03
 EndChar
 
 StartChar: bnbha_bnra_u09CD.zz03.zz07
-Encoding: 65610 -1 254
+Encoding: 65609 -1 251
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9230,11 +9500,13 @@ SplineSet
  810 313 l 1,44,-1
  943 305 l 1,21,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnbha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnma_bnra_u09CD.zz03.zz07
-Encoding: 65611 -1 255
+Encoding: 65610 -1 252
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9301,11 +9573,13 @@ SplineSet
  773 303 l 1,74,-1
  925 295 l 1,51,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnma bnra_u09CD.zz03
 EndChar
 
 StartChar: bnya_bnra_u09CD.zz03.zz07
-Encoding: 65612 -1 256
+Encoding: 65611 -1 253
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9350,11 +9624,13 @@ SplineSet
  793 238 l 1,43,-1
  946 230 l 1,20,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnya bnra_u09CD.zz03
 EndChar
 
 StartChar: bnra_bnra_u09CD.zz03.zz07
-Encoding: 65613 -1 257
+Encoding: 65612 -1 254
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9401,11 +9677,13 @@ SplineSet
  702 163 l 1,43,-1
  839 155 l 1,20,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnra bnra_u09CD.zz03
 EndChar
 
 StartChar: bnla_bnra_u09CD.zz03.zz07
-Encoding: 65614 -1 258
+Encoding: 65613 -1 255
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9458,11 +9736,13 @@ SplineSet
  839 303 l 1,60,-1
  960 295 l 1,37,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnla bnra_u09CD.zz03
 EndChar
 
 StartChar: bnsha_bnra_u09CD.zz03.zz07
-Encoding: 65615 -1 259
+Encoding: 65614 -1 256
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9515,11 +9795,13 @@ SplineSet
  845 418 l 1,64,-1
  971 410 l 1,41,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnsha bnra_u09CD.zz03
 EndChar
 
 StartChar: bnssa_bnra_u09CD.zz03.zz07
-Encoding: 65616 -1 260
+Encoding: 65615 -1 257
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9569,11 +9851,13 @@ SplineSet
  787 228 l 1,47,-1
  940 220 l 1,24,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnssa bnra_u09CD.zz03
 EndChar
 
 StartChar: bnsa_bnra_u09CD.zz03.zz07
-Encoding: 65617 -1 261
+Encoding: 65616 -1 258
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9625,11 +9909,13 @@ SplineSet
  911 205 l 1,51,-1
  766 213 l 1,28,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnsa bnra_u09CD.zz03
 EndChar
 
 StartChar: bnha_bnra_u09CD.zz03.zz07
-Encoding: 65618 -1 262
+Encoding: 65617 -1 259
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9677,11 +9963,13 @@ SplineSet
  846 104 l 1,48,-1
  710 110 l 1,25,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 6 subtable" bnha bnra_u09CD.zz03
 EndChar
 
 StartChar: glyph261
-Encoding: 65619 -1 263
+Encoding: 65618 -1 260
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9758,8 +10046,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph262
-Encoding: 65620 -1 264
+Encoding: 65619 -1 261
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9847,8 +10136,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph263
-Encoding: 65621 -1 265
+Encoding: 65620 -1 262
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9932,8 +10222,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph264
-Encoding: 65622 -1 266
+Encoding: 65621 -1 263
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10002,8 +10293,9 @@ EndSplineSet
 EndChar
 
 StartChar: halfka_bnka.zz05
-Encoding: 65623 -1 267
+Encoding: 65622 -1 264
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10064,11 +10356,13 @@ SplineSet
  521 1013 l 1,61,-1
  469 1011 l 1,56,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bnka
 EndChar
 
 StartChar: halfka_bntta.zz05
-Encoding: 65624 -1 268
+Encoding: 65623 -1 265
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10131,11 +10425,13 @@ SplineSet
  475 991 l 1,71,-1
  338 1000 l 1,67,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bntta
 EndChar
 
 StartChar: halfka_bnta.zz05
-Encoding: 65625 -1 269
+Encoding: 65624 -1 266
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10195,11 +10491,13 @@ SplineSet
  603 486 l 1,61,45
  858 595 858 595 939 535 c 0,46,47
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bnta
 EndChar
 
 StartChar: halfka_bnna.zz05
-Encoding: 65626 -1 270
+Encoding: 65625 -1 267
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10251,11 +10549,13 @@ SplineSet
  1060 1330 l 1,53,-1
  20 1330 l 1,50,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bnna
 EndChar
 
 StartChar: halfka_bnma.zz05
-Encoding: 65627 -1 271
+Encoding: 65626 -1 268
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10315,11 +10615,13 @@ SplineSet
  1040 1125 l 1,62,-1
  1040 1290 l 1,39,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bnma
 EndChar
 
 StartChar: halfka_bnla.zz05
-Encoding: 65628 -1 272
+Encoding: 65627 -1 269
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10377,11 +10679,13 @@ SplineSet
  382 137 l 1,62,37
  196 288 196 288 136 233 c 0,38,39
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bnla
 EndChar
 
 StartChar: halfka_bnsa.zz05
-Encoding: 65629 -1 273
+Encoding: 65628 -1 270
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10432,11 +10736,13 @@ SplineSet
  351 950 l 1,51,-1
  308 947 l 1,46,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" halfka bnsa
 EndChar
 
-StartChar: bnka_u09CD_bnssa.zz01_u09CD.zz04_bnna.zz05
-Encoding: 65630 -1 274
+StartChar: bnka_u09CD_bnssa_u09CD_bnna
+Encoding: 65629 -1 271
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10520,11 +10826,13 @@ SplineSet
  745 175 l 1,104,88
  604 273 604 273 560 219 c 0,89,90
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnka_u09CD_bnssa.zz01_u09CD.zz04 bnna
 EndChar
 
 StartChar: bnka_u09CD_bnssa.zz01_u09CD.zz04_bnma.zz05
-Encoding: 65631 -1 275
+Encoding: 65630 -1 272
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10624,11 +10932,13 @@ SplineSet
  1100 1291 l 1,120,-1
  1100 1145 l 1,97,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnka_u09CD_bnssa.zz01_u09CD.zz04 bnma
 EndChar
 
 StartChar: bnga_u09CD.zz04_bnta.zz05
-Encoding: 65632 -1 276
+Encoding: 65631 -1 273
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10680,11 +10990,13 @@ SplineSet
  588 1213 l 1,52,-1
  588 1218 l 1,24,25
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnga_u09CD.zz04 bnta
 EndChar
 
 StartChar: bnga_u09CD.zz04_bnda.zz05
-Encoding: 65633 -1 277
+Encoding: 65632 -1 274
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10739,11 +11051,13 @@ SplineSet
  730 514 l 1,46,-1
  730 628 l 1,41,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnga_u09CD.zz04 bnda
 EndChar
 
 StartChar: bnga_u09CD.zz04_bndha.zz05
-Encoding: 65634 -1 278
+Encoding: 65633 -1 275
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10793,11 +11107,13 @@ SplineSet
  686 1182 l 1,49,-1
  686 1188 l 1,21,22
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnga_u09CD.zz04 bndha
 EndChar
 
 StartChar: bnga_u09CD.zz04_bnna.zz05
-Encoding: 65635 -1 279
+Encoding: 65634 -1 276
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10859,11 +11175,13 @@ SplineSet
  545 -19 545 -19 517.5 10 c 128,-1,62
  490 39 490 39 490 79 c 0,51,52
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnga_u09CD.zz04 bnna
 EndChar
 
 StartChar: bnga_u09CD.zz04_bnma.zz05
-Encoding: 65636 -1 280
+Encoding: 65635 -1 277
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10919,11 +11237,13 @@ SplineSet
  575 100 l 1,58,33
  311 313 311 313 225 235 c 0,34,35
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnga_u09CD.zz04 bnma
 EndChar
 
 StartChar: bnga_u09CD.zz04_bnla.zz05
-Encoding: 65637 -1 281
+Encoding: 65636 -1 278
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -10979,11 +11299,13 @@ SplineSet
  312 28 312 28 430 96 c 0,60,61
  530 154 530 154 850 49 c 1,45,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnga_u09CD.zz04 bnla
 EndChar
 
 StartChar: bnnga_u09CD.zz04_bnka.zz05
-Encoding: 65638 -1 282
+Encoding: 65637 -1 279
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11041,11 +11363,13 @@ SplineSet
  1060 1380 l 1,66,-1
  20 1380 l 1,63,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnnga_u09CD.zz04 bnka
 EndChar
 
 StartChar: bnnga_u09CD.zz04_bnga.zz05
-Encoding: 65639 -1 283
+Encoding: 65638 -1 280
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11093,11 +11417,13 @@ SplineSet
  569 1121 569 1121 545 1211 c 1,48,-1
  503 1163 l 1,38,39
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnnga_u09CD.zz04 bnga
 EndChar
 
 StartChar: bnja_u09CD.zz04_bnja.zz05
-Encoding: 65640 -1 284
+Encoding: 65639 -1 281
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11156,11 +11482,13 @@ SplineSet
  486 973 486 973 311 972 c 1,59,-1
  307 1082 l 1,48,49
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnja_u09CD.zz04 bnja
 EndChar
 
 StartChar: bnnya_u09CD.zz04_bnca.zz05
-Encoding: 65641 -1 285
+Encoding: 65640 -1 282
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11210,11 +11538,13 @@ SplineSet
  738 888 l 1,52,29
  852 991 852 991 874 1016.5 c 128,-1,30
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnnya_u09CD.zz04 bnca
 EndChar
 
 StartChar: bnnya_u09CD.zz04_bncha.zz05
-Encoding: 65642 -1 286
+Encoding: 65641 -1 283
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11294,11 +11624,13 @@ SplineSet
  463 1099 l 1,89,66
  564 1153 564 1153 584 1167 c 128,-1,67
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnnya_u09CD.zz04 bncha
 EndChar
 
 StartChar: bnnya_u09CD.zz04_bnja.zz05
-Encoding: 65643 -1 287
+Encoding: 65642 -1 284
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11359,11 +11691,13 @@ SplineSet
  677 622 677 622 455 621 c 1,62,-1
  450 764 l 1,51,52
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnnya_u09CD.zz04 bnja
 EndChar
 
 StartChar: bntta_u09CD.zz04_bntta.zz05
-Encoding: 65644 -1 288
+Encoding: 65643 -1 285
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11416,11 +11750,13 @@ SplineSet
  868 169 868 169 893 333 c 1,58,-1
  799 296 l 1,45,46
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bntta_u09CD.zz04 bntta
 EndChar
 
 StartChar: bnta_u09CD.zz04_bntha.zz05
-Encoding: 65645 -1 289
+Encoding: 65644 -1 286
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11460,11 +11796,13 @@ SplineSet
  335 917 l 1,45,29
  164 1084 164 1084 110 992 c 0,30,31
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnta_u09CD.zz04 bntha
 EndChar
 
 StartChar: bnda_u09CD.zz04_bndha.zz05
-Encoding: 65646 -1 290
+Encoding: 65645 -1 287
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11507,11 +11845,13 @@ SplineSet
  1085 1365 l 1,31,-1
  28 1368 l 1,28,-1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnda_u09CD.zz04 bndha
 EndChar
 
 StartChar: bnna_u09CD.zz04_bndha.zz05
-Encoding: 65647 -1 291
+Encoding: 65646 -1 288
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11560,158 +11900,13 @@ SplineSet
  1163 1390 l 1,43,-1
  10 1395 l 1,40,-1
 EndSplineSet
-EndChar
-
-StartChar: glyph290
-Encoding: 65648 -1 292
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph291
-Encoding: 65649 -1 293
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph292
-Encoding: 65650 -1 294
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph293
-Encoding: 65651 -1 295
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph294
-Encoding: 65652 -1 296
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph295
-Encoding: 65653 -1 297
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph296
-Encoding: 65654 -1 298
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph297
-Encoding: 65655 -1 299
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph298
-Encoding: 65656 -1 300
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph299
-Encoding: 65657 -1 301
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph300
-Encoding: 65658 -1 302
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph301
-Encoding: 65659 -1 303
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph302
-Encoding: 65660 -1 304
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph303
-Encoding: 65661 -1 305
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph304
-Encoding: 65662 -1 306
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph305
-Encoding: 65663 -1 307
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph306
-Encoding: 65664 -1 308
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph307
-Encoding: 65665 -1 309
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph308
-Encoding: 65666 -1 310
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph309
-Encoding: 65667 -1 311
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph310
-Encoding: 65668 -1 312
-Width: 1050
-Flags: W
-LayerCount: 2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 4 subtable" bnna_u09CD.zz04 bndha
 EndChar
 
 StartChar: glyph311
-Encoding: 65669 -1 313
+Encoding: 65668 -1 289
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11750,8 +11945,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph312
-Encoding: 65670 -1 314
+Encoding: 65669 -1 290
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11783,8 +11979,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph313
-Encoding: 65671 -1 315
+Encoding: 65670 -1 291
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11818,8 +12015,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph314
-Encoding: 65672 -1 316
+Encoding: 65671 -1 292
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11854,8 +12052,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph315
-Encoding: 65673 -1 317
+Encoding: 65672 -1 293
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11886,8 +12085,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph316
-Encoding: 65674 -1 318
+Encoding: 65673 -1 294
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11929,8 +12129,9 @@ EndSplineSet
 EndChar
 
 StartChar: glyph317
-Encoding: 65675 -1 319
+Encoding: 65674 -1 295
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -11965,39 +12166,63 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: glyph318
-Encoding: 65676 -1 320
+StartChar: uni25CC
+Encoding: 9676 9676 296
 Width: 1050
+GlyphClass: 2
 Flags: W
 LayerCount: 2
-EndChar
-
-StartChar: glyph319
-Encoding: 65677 -1 321
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph320
-Encoding: 65678 -1 322
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph321
-Encoding: 65679 -1 323
-Width: 1050
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: glyph322
-Encoding: 65680 -1 324
-Width: 1050
-Flags: W
-LayerCount: 2
+Fore
+SplineSet
+1103 651 m 1,0,-1
+ 971 637 l 1,1,2
+ 970 737 970 737 923 824 c 1,3,-1
+ 1042 880 l 1,4,5
+ 1099 772 1099 772 1103 651 c 1,0,-1
+927 1037 m 1,6,-1
+ 842 936 l 1,7,8
+ 807 969 807 969 765 992 c 0,9,10
+ 721 1017 721 1017 675 1030 c 1,11,-1
+ 721 1153 l 1,12,13
+ 781 1135 781 1135 831 1107 c 0,14,15
+ 882 1079 882 1079 927 1037 c 1,6,-1
+1023 369 m 0,16,17
+ 994 319 994 319 951 272 c 1,18,-1
+ 851 354 l 1,19,20
+ 885 389 885 389 910 432 c 0,21,22
+ 936 476 936 476 950 523 c 1,23,-1
+ 1072 480 l 1,24,25
+ 1053 420 1053 420 1023 369 c 0,16,17
+816 159 m 1,26,27
+ 706 101 706 101 583 94 c 1,28,-1
+ 573 224 l 1,29,30
+ 672 228 672 228 761 278 c 1,31,-1
+ 816 159 l 1,26,27
+536 1041 m 1,32,33
+ 436 1037 436 1037 347 987 c 1,34,-1
+ 292 1105 l 1,35,36
+ 400 1163 400 1163 525 1170 c 1,37,-1
+ 536 1041 l 1,32,33
+158 742 m 1,38,-1
+ 35 785 l 1,39,40
+ 53 841 53 841 85 895 c 0,41,42
+ 116 949 116 949 157 993 c 1,43,-1
+ 257 911 l 1,44,45
+ 223 875 223 875 197 831 c 0,46,47
+ 172 788 172 788 158 742 c 1,38,-1
+386 113 m 1,48,49
+ 327 129 327 129 276 158 c 0,50,51
+ 226 186 226 186 181 228 c 1,52,-1
+ 265 329 l 1,53,54
+ 300 296 300 296 344 272 c 0,55,56
+ 386 248 386 248 432 235 c 1,57,-1
+ 386 113 l 1,48,49
+185 441 m 1,58,-1
+ 65 384 l 1,59,60
+ 9 492 9 492 5 613 c 1,61,-1
+ 137 627 l 1,62,63
+ 138 527 138 527 185 441 c 1,58,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
