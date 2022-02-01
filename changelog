@@ -1,5 +1,13 @@
 CHANGELOG
-fonts-beng-extra(1.1)
+Mukti  is now housed in https://github.com/mitradranirban/fonts-mukti
+Updated ani.ttf version 0.70 to version 1.0.1
+   * Added glyphs to make font compliant with Unicode 14.0 standard for Bengali 
+   * corrected various glyph naming error as suggested by fontforge
+   * added support of assamese ligatures 
+   * corrected typos in GSUB lookups which was making font unusable 
+ Updated mitra.ttf(version 0.70) to mitramono.ttf(version 1.0.0)
+   * corrected Bengali namespace error
+   * changed font file name to avoid confusion with a nastaliq font of same name
  * Replaced MuktiNarrow.ttf and MuktiNarrowBold.ttf with mukti.otf and muktibold.otf
    * corrected Bengali namespace error <closes #441319>
    * Created using MuktiNarrow*ttf created for Free bangla Font Project (as original  Mukti.ttf is withdrawn no need to keep the Narrow suffix)
