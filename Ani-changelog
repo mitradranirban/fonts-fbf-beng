@@ -1,0 +1,17 @@
+CHANGELOG
+Ani.ttf 
+* Version 1.0.2 February 6 2022
+Corrected pstf lookup for Ya_phala
+ 
+Version 1.0.1 FEbruary 1 2022
+- Corrected typos making Lookups unusable
+
+Version 1.0.0 February 1 2022 
+- Added glyphs to make unicode 14.0 compliant 
+-Added additional conjunct for Assamese Ra and Va
+-removed overlapping contoures
+-removed residual MS VOLT data
+
+Version 0.80 Aug 06 2020 
+	* corrected Bengali namespace error 
+	* corrected various glyph naming error as suggested by fontforge

@@ -2,9 +2,9 @@ SplineFontDB: 3.2
 FontName: MitraMono
 FullName: Mitra Mono
 FamilyName: Mitra 
-Weight: Book
-Copyright: GNU GPL2+ FE 2002-2002 Dr Anirban Mitra"As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version." 
-Version: 1.0.0
+Weight: Monospace
+Copyright: GNU GPL2+ with Font exception (C) 2002-2022 Dr Anirban Mitra \nYou are allowed to distribute or use this software in as many computer systems as you wish, with or without modifications provided you transfer these  rights with the software.This software is distributed in good faith that it will be useful to you but WITHOUT any warranty. \nFull text of the GNU GPL license is available at www.gnu.org.\n "As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version." 
+Version: 1.0.2 February 6 2022
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1031905939
-ModificationTime: 1643560183
+ModificationTime: 1644211035
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -57,9 +57,9 @@ OS2UnicodeRanges: 00010001.00000000.00000000.00000000
 Lookup: 4 0 0 "'akhn' Akhand in Bengali lookup 0" { "'akhn' Akhand in Bengali lookup 0 subtable"  } ['akhn' ('beng' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form in Bengali lookup 1" { "'rphf' Reph Form in Bengali lookup 1 subtable"  } ['rphf' ('beng' <'dflt' > ) 'zz02' ('beng' <'zz01' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Bengali lookup 2" { "'blwf' Below Base Forms in Bengali lookup 2 subtable"  } ['blwf' ('beng' <'dflt' > ) 'zz03' ('beng' <'zz01' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Bengali lookup 10" { "'pstf' Post Base Forms in Bengali lookup 10-1"  } ['pstf' ('beng' <'dflt' > ) ]
 Lookup: 4 0 0 "'half' Half Forms in Bengali lookup 3" { "'half' Half Forms in Bengali lookup 3 subtable"  } ['half' ('beng' <'dflt' > ) 'zz04' ('beng' <'zz01' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions in Bengali lookup 4" { "'pres' Pre Base Substitutions in Bengali lookup 4 subtable"  } ['pres' ('beng' <'dflt' > ) 'zz05' ('beng' <'zz01' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Bengali lookup 5" { "'psts' Post Base Substitutions in Bengali lookup 5 subtable"  } ['psts' ('beng' <'dflt' > ) 'zz06' ('beng' <'zz01' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants in Bengali lookup 6" { "'vatu' Vattu Variants in Bengali lookup 6 subtable"  } ['vatu' ('beng' <'dflt' > ) 'zz07' ('beng' <'zz01' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms in Bengali lookup 7" { "'haln' Halant Forms in Bengali lookup 7 subtable"  } ['haln' ('beng' <'dflt' > ) 'zz08' ('beng' <'zz01' > ) ]
 Lookup: 6 0 0 "Contextual Chaining Substitution in Bengali lookup 8" { "Contextual Chaining Substitution in Bengali lookup 8 subtable"  } ['altr' ('beng' <'dflt' > ) 'zz09' ('beng' <'zz01' > ) ]
@@ -92,8 +92,8 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1093 "" "" "" "" "+Ca4JvwmkCc0JsAAA +Ca4JywmoCcsA" "1.0.0"
-LangName: 1033 "" "" "Regular" "" "" "1.0.0 " "" "" "" "Dr Anirban Mitra" "This is an experimental Bengali monospace font." "https://fonts.atipra.in" "https://github.com/mitradranirban/fonts-fbf-beng " "GNU GPL2+- FE +AKkA 2002 - 2022 Dr Anirban Mitra. You are allowed to distribute or use this software in as many computer systems as you wish, with or without modifications provided you transfer these  rights with the software.  "
+LangName: 1093 "" "" "" "" "+Ca4JvwmkCc0JsAAA +Ca4JywmoCcsA" "1.0.2"
+LangName: 1033 "" "" "Regular" "" "" "1.0.2" "" "" "" "Dr Anirban Mitra" "This is an experimental Bengali monospace font." "https://fonts.atipra.in" "https://github.com/mitradranirban/fonts-fbf-beng " "GNU GPL2+- FE +AKkA 2002 - 2022 Dr Anirban Mitra. You are allowed to distribute or use this software in as many computer systems as you wish, with or without modifications provided you transfer these  rights with the software.  " "http://www.gnu.org/licenses/gpl-3.0.html"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -8097,7 +8097,7 @@ SplineSet
  1050 1360 l 1,25,-1
  10 1360 l 1,22,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Bengali lookup 5 subtable" bnya u09CD
+Ligature2: "'pstf' Post Base Forms in Bengali lookup 10-1" bnya u09CD
 EndChar
 
 StartChar: bnra_u09CD.zz03
